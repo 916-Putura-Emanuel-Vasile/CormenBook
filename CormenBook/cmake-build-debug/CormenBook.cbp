@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Informatica/Algorithms/Algorithms/CormenBook/cmake-build-debug"/>
+				<Option working_dir="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Informatica/Algorithms/Algorithms/CormenBook/cmake-build-debug"/>
+				<Option working_dir="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CormenBook">
-				<Option output="D:/Informatica/Algorithms/Algorithms/CormenBook/cmake-build-debug/CormenBook.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Informatica/Algorithms/Algorithms/CormenBook/cmake-build-debug"/>
+				<Option output="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CormenBook.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -44,15 +44,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 CormenBook"/>
-					<CompileFile command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 CormenBook"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CormenBook/fast">
-				<Option output="D:/Informatica/Algorithms/Algorithms/CormenBook/cmake-build-debug/CormenBook.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Informatica/Algorithms/Algorithms/CormenBook/cmake-build-debug"/>
+				<Option output="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CormenBook.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -67,39 +67,45 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 CormenBook/fast"/>
-					<CompileFile command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 CormenBook/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Informatica/Algorithms/Algorithms/CormenBook/cmake-build-debug"/>
+				<Option working_dir="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBook/exercises/exercise2-4-d.cpp">
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/maximum_subarray_problem.cpp">
 			<Option target="CormenBook"/>
 		</Unit>
-		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBook/exercises/exercise2-4-d.h">
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/maximum_subarray_problem.h">
 			<Option target="CormenBook"/>
 		</Unit>
-		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBook/main.cpp">
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/polynomial_eval_horner_rule.cpp">
 			<Option target="CormenBook"/>
 		</Unit>
-		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBook/polynomial_eval_horner_rule.cpp">
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/polynomial_eval_horner_rule.h">
 			<Option target="CormenBook"/>
 		</Unit>
-		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBook/polynomial_eval_horner_rule.h">
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/exercises/exercise2-4-d.cpp">
 			<Option target="CormenBook"/>
 		</Unit>
-		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBook/CMakeLists.txt">
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/exercises/exercise2-4-d.h">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/main.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

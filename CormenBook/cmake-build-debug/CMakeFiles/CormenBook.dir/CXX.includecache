@@ -6,39 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/Informatica/Algorithms/Algorithms/CormenBook/exercises/exercise2-4-d.cpp
-iostream
--
-iterator
--
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/maximum_subarray_problem.cpp
+maximum_subarray_problem.h
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/maximum_subarray_problem.h
 cassert
 -
-exercise2-4-d.h
-D:/Informatica/Algorithms/Algorithms/CormenBook/exercises/exercise2-4-d.h
 
-D:/Informatica/Algorithms/Algorithms/CormenBook/exercises/exercise2-4-d.h
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/maximum_subarray_problem.h
 vector
 -
-algorithm
--
-
-D:/Informatica/Algorithms/Algorithms/CormenBook/main.cpp
-iostream
--
-polynomial_eval_horner_rule.h
-D:/Informatica/Algorithms/Algorithms/CormenBook/polynomial_eval_horner_rule.h
-exercises/exercise2-4-d.h
-D:/Informatica/Algorithms/Algorithms/CormenBook/exercises/exercise2-4-d.h
-
-D:/Informatica/Algorithms/Algorithms/CormenBook/polynomial_eval_horner_rule.h
-vector
--
-iostream
--
-algorithm
--
-sstream
--
-string
+tuple
 -
 

@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Informatica\Algorithms\Algorithms\CormenBook
+CMAKE_SOURCE_DIR = D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\CMakeFiles D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\CMakeFiles D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Informatica\Algorithms\Algorithms\CormenBook\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -126,6 +126,60 @@ CormenBook: cmake_check_build_system
 CormenBook\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\build
 .PHONY : CormenBook\fast
+
+algorithms\maximum_subarray_problem.obj: algorithms\maximum_subarray_problem.cpp.obj
+
+.PHONY : algorithms\maximum_subarray_problem.obj
+
+# target to build an object file
+algorithms\maximum_subarray_problem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.obj
+.PHONY : algorithms\maximum_subarray_problem.cpp.obj
+
+algorithms\maximum_subarray_problem.i: algorithms\maximum_subarray_problem.cpp.i
+
+.PHONY : algorithms\maximum_subarray_problem.i
+
+# target to preprocess a source file
+algorithms\maximum_subarray_problem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.i
+.PHONY : algorithms\maximum_subarray_problem.cpp.i
+
+algorithms\maximum_subarray_problem.s: algorithms\maximum_subarray_problem.cpp.s
+
+.PHONY : algorithms\maximum_subarray_problem.s
+
+# target to generate assembly for a file
+algorithms\maximum_subarray_problem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.s
+.PHONY : algorithms\maximum_subarray_problem.cpp.s
+
+algorithms\polynomial_eval_horner_rule.obj: algorithms\polynomial_eval_horner_rule.cpp.obj
+
+.PHONY : algorithms\polynomial_eval_horner_rule.obj
+
+# target to build an object file
+algorithms\polynomial_eval_horner_rule.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\polynomial_eval_horner_rule.cpp.obj
+.PHONY : algorithms\polynomial_eval_horner_rule.cpp.obj
+
+algorithms\polynomial_eval_horner_rule.i: algorithms\polynomial_eval_horner_rule.cpp.i
+
+.PHONY : algorithms\polynomial_eval_horner_rule.i
+
+# target to preprocess a source file
+algorithms\polynomial_eval_horner_rule.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\polynomial_eval_horner_rule.cpp.i
+.PHONY : algorithms\polynomial_eval_horner_rule.cpp.i
+
+algorithms\polynomial_eval_horner_rule.s: algorithms\polynomial_eval_horner_rule.cpp.s
+
+.PHONY : algorithms\polynomial_eval_horner_rule.s
+
+# target to generate assembly for a file
+algorithms\polynomial_eval_horner_rule.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\polynomial_eval_horner_rule.cpp.s
+.PHONY : algorithms\polynomial_eval_horner_rule.cpp.s
 
 exercises\exercise2-4-d.obj: exercises\exercise2-4-d.cpp.obj
 
@@ -181,33 +235,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\main.cpp.s
 .PHONY : main.cpp.s
 
-polynomial_eval_horner_rule.obj: polynomial_eval_horner_rule.cpp.obj
-
-.PHONY : polynomial_eval_horner_rule.obj
-
-# target to build an object file
-polynomial_eval_horner_rule.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\polynomial_eval_horner_rule.cpp.obj
-.PHONY : polynomial_eval_horner_rule.cpp.obj
-
-polynomial_eval_horner_rule.i: polynomial_eval_horner_rule.cpp.i
-
-.PHONY : polynomial_eval_horner_rule.i
-
-# target to preprocess a source file
-polynomial_eval_horner_rule.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\polynomial_eval_horner_rule.cpp.i
-.PHONY : polynomial_eval_horner_rule.cpp.i
-
-polynomial_eval_horner_rule.s: polynomial_eval_horner_rule.cpp.s
-
-.PHONY : polynomial_eval_horner_rule.s
-
-# target to generate assembly for a file
-polynomial_eval_horner_rule.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\polynomial_eval_horner_rule.cpp.s
-.PHONY : polynomial_eval_horner_rule.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -217,15 +244,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CormenBook
+	@echo ... algorithms/maximum_subarray_problem.obj
+	@echo ... algorithms/maximum_subarray_problem.i
+	@echo ... algorithms/maximum_subarray_problem.s
+	@echo ... algorithms/polynomial_eval_horner_rule.obj
+	@echo ... algorithms/polynomial_eval_horner_rule.i
+	@echo ... algorithms/polynomial_eval_horner_rule.s
 	@echo ... exercises/exercise2-4-d.obj
 	@echo ... exercises/exercise2-4-d.i
 	@echo ... exercises/exercise2-4-d.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... polynomial_eval_horner_rule.obj
-	@echo ... polynomial_eval_horner_rule.i
-	@echo ... polynomial_eval_horner_rule.s
 .PHONY : help
 
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CormenBook.dir/algorithms/maximum_subarray_problem.cpp.obj"
-  "CMakeFiles/CormenBook.dir/algorithms/permute_by_sorting.cpp.obj"
+  "CMakeFiles/CormenBook.dir/algorithms/permutations.cpp.obj"
   "CMakeFiles/CormenBook.dir/algorithms/polynomial_eval_horner_rule.cpp.obj"
   "CMakeFiles/CormenBook.dir/exercises/exercise2-4-d.cpp.obj"
   "CMakeFiles/CormenBook.dir/main.cpp.obj"

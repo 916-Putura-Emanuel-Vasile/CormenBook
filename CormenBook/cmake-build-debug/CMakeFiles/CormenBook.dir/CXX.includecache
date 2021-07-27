@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/maximum_subarray_problem.cpp
-maximum_subarray_problem.h
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/maximum_subarray_problem.h
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/permutations.cpp
+permutations.h
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/permutations.h
 cassert
 -
 
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/maximum_subarray_problem.h
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/permutations.h
+iostream
+-
 vector
 -
-tuple
+queue
+-
+time.h
 -
 

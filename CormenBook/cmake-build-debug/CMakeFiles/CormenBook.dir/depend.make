@@ -4,6 +4,9 @@
 CMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.obj: ..\algorithms\maximum_subarray_problem.cpp
 CMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.obj: ..\algorithms\maximum_subarray_problem.h
 
+CMakeFiles\CormenBook.dir\algorithms\permutations.cpp.obj: ..\algorithms\permutations.cpp
+CMakeFiles\CormenBook.dir\algorithms\permutations.cpp.obj: ..\algorithms\permutations.h
+
 CMakeFiles\CormenBook.dir\algorithms\polynomial_eval_horner_rule.cpp.obj: ..\algorithms\polynomial_eval_horner_rule.cpp
 CMakeFiles\CormenBook.dir\algorithms\polynomial_eval_horner_rule.cpp.obj: ..\algorithms\polynomial_eval_horner_rule.h
 
@@ -11,6 +14,7 @@ CMakeFiles\CormenBook.dir\exercises\exercise2-4-d.cpp.obj: ..\exercises\exercise
 CMakeFiles\CormenBook.dir\exercises\exercise2-4-d.cpp.obj: ..\exercises\exercise2-4-d.h
 
 CMakeFiles\CormenBook.dir\main.cpp.obj: ..\algorithms\maximum_subarray_problem.h
+CMakeFiles\CormenBook.dir\main.cpp.obj: ..\algorithms\permutations.h
 CMakeFiles\CormenBook.dir\main.cpp.obj: ..\algorithms\polynomial_eval_horner_rule.h
 CMakeFiles\CormenBook.dir\main.cpp.obj: ..\exercises\exercise2-4-d.h
 CMakeFiles\CormenBook.dir\main.cpp.obj: ..\main.cpp

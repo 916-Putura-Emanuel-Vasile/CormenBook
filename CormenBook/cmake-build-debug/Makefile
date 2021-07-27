@@ -154,32 +154,32 @@ algorithms\maximum_subarray_problem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.s
 .PHONY : algorithms\maximum_subarray_problem.cpp.s
 
-algorithms\permute_by_sorting.obj: algorithms\permute_by_sorting.cpp.obj
+algorithms\permutations.obj: algorithms\permutations.cpp.obj
 
-.PHONY : algorithms\permute_by_sorting.obj
+.PHONY : algorithms\permutations.obj
 
 # target to build an object file
-algorithms\permute_by_sorting.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\permute_by_sorting.cpp.obj
-.PHONY : algorithms\permute_by_sorting.cpp.obj
+algorithms\permutations.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\permutations.cpp.obj
+.PHONY : algorithms\permutations.cpp.obj
 
-algorithms\permute_by_sorting.i: algorithms\permute_by_sorting.cpp.i
+algorithms\permutations.i: algorithms\permutations.cpp.i
 
-.PHONY : algorithms\permute_by_sorting.i
+.PHONY : algorithms\permutations.i
 
 # target to preprocess a source file
-algorithms\permute_by_sorting.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\permute_by_sorting.cpp.i
-.PHONY : algorithms\permute_by_sorting.cpp.i
+algorithms\permutations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\permutations.cpp.i
+.PHONY : algorithms\permutations.cpp.i
 
-algorithms\permute_by_sorting.s: algorithms\permute_by_sorting.cpp.s
+algorithms\permutations.s: algorithms\permutations.cpp.s
 
-.PHONY : algorithms\permute_by_sorting.s
+.PHONY : algorithms\permutations.s
 
 # target to generate assembly for a file
-algorithms\permute_by_sorting.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\permute_by_sorting.cpp.s
-.PHONY : algorithms\permute_by_sorting.cpp.s
+algorithms\permutations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\permutations.cpp.s
+.PHONY : algorithms\permutations.cpp.s
 
 algorithms\polynomial_eval_horner_rule.obj: algorithms\polynomial_eval_horner_rule.cpp.obj
 
@@ -274,9 +274,9 @@ help:
 	@echo ... algorithms/maximum_subarray_problem.obj
 	@echo ... algorithms/maximum_subarray_problem.i
 	@echo ... algorithms/maximum_subarray_problem.s
-	@echo ... algorithms/permute_by_sorting.obj
-	@echo ... algorithms/permute_by_sorting.i
-	@echo ... algorithms/permute_by_sorting.s
+	@echo ... algorithms/permutations.obj
+	@echo ... algorithms/permutations.i
+	@echo ... algorithms/permutations.s
 	@echo ... algorithms/polynomial_eval_horner_rule.obj
 	@echo ... algorithms/polynomial_eval_horner_rule.i
 	@echo ... algorithms/polynomial_eval_horner_rule.s

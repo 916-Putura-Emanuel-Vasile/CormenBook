@@ -90,6 +90,12 @@
 		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/maximum_subarray_problem.h">
 			<Option target="CormenBook"/>
 		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/permute_by_sorting.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/permute_by_sorting.h">
+			<Option target="CormenBook"/>
+		</Unit>
 		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/polynomial_eval_horner_rule.cpp">
 			<Option target="CormenBook"/>
 		</Unit>

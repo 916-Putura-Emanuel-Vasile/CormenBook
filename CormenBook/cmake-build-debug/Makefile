@@ -154,6 +154,33 @@ algorithms\maximum_subarray_problem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.s
 .PHONY : algorithms\maximum_subarray_problem.cpp.s
 
+algorithms\permute_by_sorting.obj: algorithms\permute_by_sorting.cpp.obj
+
+.PHONY : algorithms\permute_by_sorting.obj
+
+# target to build an object file
+algorithms\permute_by_sorting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\permute_by_sorting.cpp.obj
+.PHONY : algorithms\permute_by_sorting.cpp.obj
+
+algorithms\permute_by_sorting.i: algorithms\permute_by_sorting.cpp.i
+
+.PHONY : algorithms\permute_by_sorting.i
+
+# target to preprocess a source file
+algorithms\permute_by_sorting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\permute_by_sorting.cpp.i
+.PHONY : algorithms\permute_by_sorting.cpp.i
+
+algorithms\permute_by_sorting.s: algorithms\permute_by_sorting.cpp.s
+
+.PHONY : algorithms\permute_by_sorting.s
+
+# target to generate assembly for a file
+algorithms\permute_by_sorting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\algorithms\permute_by_sorting.cpp.s
+.PHONY : algorithms\permute_by_sorting.cpp.s
+
 algorithms\polynomial_eval_horner_rule.obj: algorithms\polynomial_eval_horner_rule.cpp.obj
 
 .PHONY : algorithms\polynomial_eval_horner_rule.obj
@@ -247,6 +274,9 @@ help:
 	@echo ... algorithms/maximum_subarray_problem.obj
 	@echo ... algorithms/maximum_subarray_problem.i
 	@echo ... algorithms/maximum_subarray_problem.s
+	@echo ... algorithms/permute_by_sorting.obj
+	@echo ... algorithms/permute_by_sorting.i
+	@echo ... algorithms/permute_by_sorting.s
 	@echo ... algorithms/polynomial_eval_horner_rule.obj
 	@echo ... algorithms/polynomial_eval_horner_rule.i
 	@echo ... algorithms/polynomial_eval_horner_rule.s

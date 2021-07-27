@@ -11,12 +11,19 @@
 #include <time.h>
 
 template <class T>
+void printVector(const std::vector<T>& data);
+
+template <class T>
+void randomizeInPlace(std::vector<T>& data);
+
+template <class T>
 void permuteBySorting(std::vector<T>& data);
 
 template <class T>
 void permuteByPriorityQueue(std::vector<T>& data);
 
 void testPermuteByPriorityQueue();
+void testRandomizeInPlace();
 
 template<class T>
 void permuteBySorting(std::vector<T> &data) {
@@ -39,6 +46,20 @@ void permuteByPriorityQueue(std::vector<T> &data) {
         data[i] = priorities.top().second;
         priorities.pop();
     }
+}
+
+template<class T>
+void randomizeInPlace(std::vector<T> &data) {
+    for (int i = 0; i < data.size(); ++i)
+        swap(data[i], data[i + rand() % (data.size() - i)]);
+}
+
+template<class T>
+void printVector(const std::vector<T> &data) {
+    std::for_each(data.begin(), data.end(), [](const auto& el){
+        std::cout << el << ' ';
+    });
+    std::cout << '\n';
 }
 
 #endif //CORMENBOOK_PERMUTATIONS_H

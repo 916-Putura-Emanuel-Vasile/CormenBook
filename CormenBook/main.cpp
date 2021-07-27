@@ -15,4 +15,5 @@ void test() {
     testCountInversions();
     testFindMaximumSubarray();
     testPermuteByPriorityQueue();
+    testRandomizeInPlace();
 }

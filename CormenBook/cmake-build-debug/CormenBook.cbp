@@ -84,24 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/maximum_subarray_problem.cpp">
-			<Option target="CormenBook"/>
-		</Unit>
-		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/maximum_subarray_problem.h">
-			<Option target="CormenBook"/>
-		</Unit>
-		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/permutations.cpp">
-			<Option target="CormenBook"/>
-		</Unit>
-		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/permutations.h">
-			<Option target="CormenBook"/>
-		</Unit>
-		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/polynomial_eval_horner_rule.cpp">
-			<Option target="CormenBook"/>
-		</Unit>
-		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/algorithms/polynomial_eval_horner_rule.h">
-			<Option target="CormenBook"/>
-		</Unit>
 		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/exercises/exercise2-4-d.cpp">
 			<Option target="CormenBook"/>
 		</Unit>
@@ -109,6 +91,30 @@
 			<Option target="CormenBook"/>
 		</Unit>
 		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/main.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/other_algorithms/maximum_subarray_problem.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/other_algorithms/maximum_subarray_problem.h">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/other_algorithms/permutations.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/other_algorithms/permutations.h">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/other_algorithms/polynomial_eval_horner_rule.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/other_algorithms/polynomial_eval_horner_rule.h">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/sorting_algorithms/heapsort.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/sorting_algorithms/heapsort.h">
 			<Option target="CormenBook"/>
 		</Unit>
 		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/CMakeLists.txt">

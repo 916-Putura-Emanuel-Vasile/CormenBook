@@ -80,23 +80,23 @@ CMakeFiles\CormenBook.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CormenBook.dir\main.cpp.s /c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\main.cpp
 <<
 
-CMakeFiles\CormenBook.dir\algorithms\polynomial_eval_horner_rule.cpp.obj: CMakeFiles\CormenBook.dir\flags.make
-CMakeFiles\CormenBook.dir\algorithms\polynomial_eval_horner_rule.cpp.obj: ..\algorithms\polynomial_eval_horner_rule.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CormenBook.dir/algorithms/polynomial_eval_horner_rule.cpp.obj"
+CMakeFiles\CormenBook.dir\other_algorithms\polynomial_eval_horner_rule.cpp.obj: CMakeFiles\CormenBook.dir\flags.make
+CMakeFiles\CormenBook.dir\other_algorithms\polynomial_eval_horner_rule.cpp.obj: ..\other_algorithms\polynomial_eval_horner_rule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CormenBook.dir/other_algorithms/polynomial_eval_horner_rule.cpp.obj"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CormenBook.dir\algorithms\polynomial_eval_horner_rule.cpp.obj /FdCMakeFiles\CormenBook.dir\ /FS -c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\algorithms\polynomial_eval_horner_rule.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CormenBook.dir\other_algorithms\polynomial_eval_horner_rule.cpp.obj /FdCMakeFiles\CormenBook.dir\ /FS -c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\other_algorithms\polynomial_eval_horner_rule.cpp
 <<
 
-CMakeFiles\CormenBook.dir\algorithms\polynomial_eval_horner_rule.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CormenBook.dir/algorithms/polynomial_eval_horner_rule.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CormenBook.dir\algorithms\polynomial_eval_horner_rule.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\algorithms\polynomial_eval_horner_rule.cpp
+CMakeFiles\CormenBook.dir\other_algorithms\polynomial_eval_horner_rule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CormenBook.dir/other_algorithms/polynomial_eval_horner_rule.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CormenBook.dir\other_algorithms\polynomial_eval_horner_rule.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\other_algorithms\polynomial_eval_horner_rule.cpp
 <<
 
-CMakeFiles\CormenBook.dir\algorithms\polynomial_eval_horner_rule.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CormenBook.dir/algorithms/polynomial_eval_horner_rule.cpp.s"
+CMakeFiles\CormenBook.dir\other_algorithms\polynomial_eval_horner_rule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CormenBook.dir/other_algorithms/polynomial_eval_horner_rule.cpp.s"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CormenBook.dir\algorithms\polynomial_eval_horner_rule.cpp.s /c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\algorithms\polynomial_eval_horner_rule.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CormenBook.dir\other_algorithms\polynomial_eval_horner_rule.cpp.s /c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\other_algorithms\polynomial_eval_horner_rule.cpp
 <<
 
 CMakeFiles\CormenBook.dir\exercises\exercise2-4-d.cpp.obj: CMakeFiles\CormenBook.dir\flags.make
@@ -118,63 +118,84 @@ CMakeFiles\CormenBook.dir\exercises\exercise2-4-d.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CormenBook.dir\exercises\exercise2-4-d.cpp.s /c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\exercises\exercise2-4-d.cpp
 <<
 
-CMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.obj: CMakeFiles\CormenBook.dir\flags.make
-CMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.obj: ..\algorithms\maximum_subarray_problem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CormenBook.dir/algorithms/maximum_subarray_problem.cpp.obj"
+CMakeFiles\CormenBook.dir\other_algorithms\maximum_subarray_problem.cpp.obj: CMakeFiles\CormenBook.dir\flags.make
+CMakeFiles\CormenBook.dir\other_algorithms\maximum_subarray_problem.cpp.obj: ..\other_algorithms\maximum_subarray_problem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CormenBook.dir/other_algorithms/maximum_subarray_problem.cpp.obj"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.obj /FdCMakeFiles\CormenBook.dir\ /FS -c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\algorithms\maximum_subarray_problem.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CormenBook.dir\other_algorithms\maximum_subarray_problem.cpp.obj /FdCMakeFiles\CormenBook.dir\ /FS -c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\other_algorithms\maximum_subarray_problem.cpp
 <<
 
-CMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CormenBook.dir/algorithms/maximum_subarray_problem.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\algorithms\maximum_subarray_problem.cpp
+CMakeFiles\CormenBook.dir\other_algorithms\maximum_subarray_problem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CormenBook.dir/other_algorithms/maximum_subarray_problem.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CormenBook.dir\other_algorithms\maximum_subarray_problem.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\other_algorithms\maximum_subarray_problem.cpp
 <<
 
-CMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CormenBook.dir/algorithms/maximum_subarray_problem.cpp.s"
+CMakeFiles\CormenBook.dir\other_algorithms\maximum_subarray_problem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CormenBook.dir/other_algorithms/maximum_subarray_problem.cpp.s"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.s /c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\algorithms\maximum_subarray_problem.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CormenBook.dir\other_algorithms\maximum_subarray_problem.cpp.s /c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\other_algorithms\maximum_subarray_problem.cpp
 <<
 
-CMakeFiles\CormenBook.dir\algorithms\permutations.cpp.obj: CMakeFiles\CormenBook.dir\flags.make
-CMakeFiles\CormenBook.dir\algorithms\permutations.cpp.obj: ..\algorithms\permutations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CormenBook.dir/algorithms/permutations.cpp.obj"
+CMakeFiles\CormenBook.dir\other_algorithms\permutations.cpp.obj: CMakeFiles\CormenBook.dir\flags.make
+CMakeFiles\CormenBook.dir\other_algorithms\permutations.cpp.obj: ..\other_algorithms\permutations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CormenBook.dir/other_algorithms/permutations.cpp.obj"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CormenBook.dir\algorithms\permutations.cpp.obj /FdCMakeFiles\CormenBook.dir\ /FS -c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\algorithms\permutations.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CormenBook.dir\other_algorithms\permutations.cpp.obj /FdCMakeFiles\CormenBook.dir\ /FS -c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\other_algorithms\permutations.cpp
 <<
 
-CMakeFiles\CormenBook.dir\algorithms\permutations.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CormenBook.dir/algorithms/permutations.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CormenBook.dir\algorithms\permutations.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\algorithms\permutations.cpp
+CMakeFiles\CormenBook.dir\other_algorithms\permutations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CormenBook.dir/other_algorithms/permutations.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CormenBook.dir\other_algorithms\permutations.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\other_algorithms\permutations.cpp
 <<
 
-CMakeFiles\CormenBook.dir\algorithms\permutations.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CormenBook.dir/algorithms/permutations.cpp.s"
+CMakeFiles\CormenBook.dir\other_algorithms\permutations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CormenBook.dir/other_algorithms/permutations.cpp.s"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CormenBook.dir\algorithms\permutations.cpp.s /c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\algorithms\permutations.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CormenBook.dir\other_algorithms\permutations.cpp.s /c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\other_algorithms\permutations.cpp
+<<
+
+CMakeFiles\CormenBook.dir\sorting_algorithms\heapsort.cpp.obj: CMakeFiles\CormenBook.dir\flags.make
+CMakeFiles\CormenBook.dir\sorting_algorithms\heapsort.cpp.obj: ..\sorting_algorithms\heapsort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CormenBook.dir/sorting_algorithms/heapsort.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CormenBook.dir\sorting_algorithms\heapsort.cpp.obj /FdCMakeFiles\CormenBook.dir\ /FS -c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\sorting_algorithms\heapsort.cpp
+<<
+
+CMakeFiles\CormenBook.dir\sorting_algorithms\heapsort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CormenBook.dir/sorting_algorithms/heapsort.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CormenBook.dir\sorting_algorithms\heapsort.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\sorting_algorithms\heapsort.cpp
+<<
+
+CMakeFiles\CormenBook.dir\sorting_algorithms\heapsort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CormenBook.dir/sorting_algorithms/heapsort.cpp.s"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CormenBook.dir\sorting_algorithms\heapsort.cpp.s /c D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\sorting_algorithms\heapsort.cpp
 <<
 
 # Object files for target CormenBook
 CormenBook_OBJECTS = \
 "CMakeFiles\CormenBook.dir\main.cpp.obj" \
-"CMakeFiles\CormenBook.dir\algorithms\polynomial_eval_horner_rule.cpp.obj" \
+"CMakeFiles\CormenBook.dir\other_algorithms\polynomial_eval_horner_rule.cpp.obj" \
 "CMakeFiles\CormenBook.dir\exercises\exercise2-4-d.cpp.obj" \
-"CMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.obj" \
-"CMakeFiles\CormenBook.dir\algorithms\permutations.cpp.obj"
+"CMakeFiles\CormenBook.dir\other_algorithms\maximum_subarray_problem.cpp.obj" \
+"CMakeFiles\CormenBook.dir\other_algorithms\permutations.cpp.obj" \
+"CMakeFiles\CormenBook.dir\sorting_algorithms\heapsort.cpp.obj"
 
 # External object files for target CormenBook
 CormenBook_EXTERNAL_OBJECTS =
 
 CormenBook.exe: CMakeFiles\CormenBook.dir\main.cpp.obj
-CormenBook.exe: CMakeFiles\CormenBook.dir\algorithms\polynomial_eval_horner_rule.cpp.obj
+CormenBook.exe: CMakeFiles\CormenBook.dir\other_algorithms\polynomial_eval_horner_rule.cpp.obj
 CormenBook.exe: CMakeFiles\CormenBook.dir\exercises\exercise2-4-d.cpp.obj
-CormenBook.exe: CMakeFiles\CormenBook.dir\algorithms\maximum_subarray_problem.cpp.obj
-CormenBook.exe: CMakeFiles\CormenBook.dir\algorithms\permutations.cpp.obj
+CormenBook.exe: CMakeFiles\CormenBook.dir\other_algorithms\maximum_subarray_problem.cpp.obj
+CormenBook.exe: CMakeFiles\CormenBook.dir\other_algorithms\permutations.cpp.obj
+CormenBook.exe: CMakeFiles\CormenBook.dir\sorting_algorithms\heapsort.cpp.obj
 CormenBook.exe: CMakeFiles\CormenBook.dir\build.make
 CormenBook.exe: CMakeFiles\CormenBook.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CormenBook.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CormenBook.exe"
 	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\CormenBook.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\CormenBook.dir\objects1.rsp @<<
  /out:CormenBook.exe /implib:CormenBook.lib /pdb:D:\Informatica\Algorithms\Algorithms\CormenBookRepo\CormenBook\cmake-build-debug\CormenBook.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

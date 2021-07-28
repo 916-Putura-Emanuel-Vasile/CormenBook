@@ -46,6 +46,8 @@ int countInversions(std::vector<int> &data, int begin, int end) {
 }
 
 void testCountInversions() {
+    std::cout << "...testing algorithm for counting inversions\n";
+
     std::vector<int> v1 {2, 3, 8, 6, 1};
     assert(countInversions(v1, 0, v1.size() - 1) == 5);
 

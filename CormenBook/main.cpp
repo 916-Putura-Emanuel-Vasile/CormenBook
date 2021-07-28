@@ -1,7 +1,10 @@
-#include "algorithms/polynomial_eval_horner_rule.h"
-#include "algorithms/maximum_subarray_problem.h"
+#include "other_algorithms/polynomial_eval_horner_rule.h"
+#include "other_algorithms/maximum_subarray_problem.h"
 #include "exercises/exercise2-4-d.h"
-#include "algorithms/permutations.h"
+#include "other_algorithms/permutations.h"
+#include "sorting_algorithms/heapsort.h"
+
+#include <iostream>
 
 void test();
 
@@ -16,4 +19,7 @@ void test() {
     testFindMaximumSubarray();
     testPermuteByPriorityQueue();
     testRandomizeInPlace();
+    testHeapsort();
+
+    std::cout << "All tests done!\n\n";
 }

@@ -10,10 +10,16 @@
 template <class T>
 class MaxHeap : public Heap<T> {
 public:
+    MaxHeap(const std::vector<T>& elements);
 private:
     void heapify(int index) override;
     void bubbleUp(int index) override;
 };
+
+template<class T>
+MaxHeap<T>::MaxHeap(const std::vector<T> &elements) : Heap<T>(elements) {
+    this->buildHeap();
+}
 
 template<class T>
 void MaxHeap<T>::heapify(int index) {

@@ -6,19 +6,33 @@
 
 #IncludeRegexTransform: 
 
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/heap.cpp
-heap.h
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/heap.h
-
 D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/heap.h
 vector
 -
 
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/max_heap.cpp
-max_heap.h
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/max_heap.h
-
 D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/max_heap.h
 heap.h
 D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/heap.h
+
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/min_heap.cpp
+min_heap.h
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/min_heap.h
+
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/min_heap.h
+heap.h
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/heap.h
+
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/testing.cpp
+testing.h
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/testing.h
+max_heap.h
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/max_heap.h
+vector
+-
+iostream
+-
+cassert
+-
+
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/testing.h
 

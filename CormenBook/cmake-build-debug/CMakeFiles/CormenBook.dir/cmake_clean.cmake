@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CormenBook.dir/data_structures/Heap/heap.cpp.obj"
   "CMakeFiles/CormenBook.dir/data_structures/Heap/max_heap.cpp.obj"
+  "CMakeFiles/CormenBook.dir/data_structures/Heap/min_heap.cpp.obj"
   "CMakeFiles/CormenBook.dir/data_structures/Heap/testing.cpp.obj"
   "CMakeFiles/CormenBook.dir/exercises/exercise2-4-d.cpp.obj"
   "CMakeFiles/CormenBook.dir/main.cpp.obj"
@@ -10,8 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CormenBook.dir/sorting_algorithms/heapsort.cpp.obj"
   "CormenBook.exe"
   "CormenBook.exe.manifest"
-  "CormenBook.lib"
   "CormenBook.pdb"
+  "libCormenBook.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

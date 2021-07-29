@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/heap.cpp" "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles/CormenBook.dir/data_structures/Heap/heap.cpp.obj"
   "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/max_heap.cpp" "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles/CormenBook.dir/data_structures/Heap/max_heap.cpp.obj"
+  "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/min_heap.cpp" "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles/CormenBook.dir/data_structures/Heap/min_heap.cpp.obj"
   "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/testing.cpp" "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles/CormenBook.dir/data_structures/Heap/testing.cpp.obj"
   "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/exercises/exercise2-4-d.cpp" "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles/CormenBook.dir/exercises/exercise2-4-d.cpp.obj"
   "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/main.cpp" "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles/CormenBook.dir/main.cpp.obj"
@@ -14,7 +15,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/other_algorithms/polynomial_eval_horner_rule.cpp" "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles/CormenBook.dir/other_algorithms/polynomial_eval_horner_rule.cpp.obj"
   "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/sorting_algorithms/heapsort.cpp" "D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles/CormenBook.dir/sorting_algorithms/heapsort.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

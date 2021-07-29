@@ -56,7 +56,7 @@ void randomizeInPlace(std::vector<T> &data) {
 
 template<class T>
 void printVector(const std::vector<T> &data) {
-    std::for_each(data.begin(), data.end(), [](const auto& el){
+    for_each(data.begin(), data.end(), [](const auto& el){
         std::cout << el << ' ';
     });
     std::cout << '\n';

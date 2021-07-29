@@ -15,11 +15,11 @@ class Heap {
 protected:
     std::vector<T> elements;
 public:
-    Heap(const std::vector<T>& data);
+    Heap(const std::vector<T>& elements);
 
     void push(const T& element);
     const T& top() const;
-    const T& pop();
+    T pop();
 
     inline const std::vector<T>& data() const { return elements; }
     inline int size() const { return elements.size(); }
@@ -42,8 +42,8 @@ protected:
     virtual void bubbleUp(int index) = 0;
 
     inline int leaves() const { return (elements.size() + 1) / 2; }
-    inline int parentIndex(int index) const { return index / 2; }
-    std::pair<int, int> childrenIndices(int index) { return {index * 2, index * 2 + 1}; }
+    inline int parentIndex(int index) const { return (index - 1) / 2; }
+    std::pair<int, int> childrenIndices(int index) { return {index * 2 + 1, index * 2 + 2}; }
 };
 
 template<class T>
@@ -53,13 +53,13 @@ void Heap<T>::push(const T &element) {
 }
 
 template<class T>
-Heap<T>::Heap(const std::vector<T> &data) : elements(data) {
-    buildHeap();
+Heap<T>::Heap(const std::vector<T> &elements) : elements(elements) {
 }
 
 template<class T>
 void Heap<T>::buildHeap() {
-    for (int i = elements.size() / 2; i >= 0; --i)
+    int non_leaves = elements.size() - leaves() - 1;
+    for (int i = non_leaves; i >= 0; --i)
         heapify(i);
 }
 
@@ -69,7 +69,7 @@ const T &Heap<T>::top() const {
 }
 
 template<class T>
-const T &Heap<T>::pop() {
+T Heap<T>::pop() {
     auto top_value = top();
     elements[0] = elements[elements.size() - 1];
     elements.erase(elements.end() - 1);

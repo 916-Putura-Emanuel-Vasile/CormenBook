@@ -3,6 +3,7 @@
 #include "exercises/exercise2-4-d.h"
 #include "other_algorithms/permutations.h"
 #include "sorting_algorithms/heapsort.h"
+#include "data_structures/Heap/testing.h"
 
 #include <iostream>
 
@@ -20,6 +21,7 @@ void test() {
     testPermuteByPriorityQueue();
     testRandomizeInPlace();
     testHeapsort();
+    testMaxHeap();
 
     std::cout << "All tests done!\n\n";
 }

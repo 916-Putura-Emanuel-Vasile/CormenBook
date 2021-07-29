@@ -5,4 +5,6 @@
 #ifndef CORMENBOOK_TESTING_H
 #define CORMENBOOK_TESTING_H
 
+void testMaxHeap();
+
 #endif //CORMENBOOK_TESTING_H

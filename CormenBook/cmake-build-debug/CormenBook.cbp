@@ -84,6 +84,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/heap.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/heap.h">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/max_heap.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/max_heap.h">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/testing.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/testing.h">
+			<Option target="CormenBook"/>
+		</Unit>
 		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/exercises/exercise2-4-d.cpp">
 			<Option target="CormenBook"/>
 		</Unit>

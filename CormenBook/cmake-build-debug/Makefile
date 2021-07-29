@@ -127,6 +127,87 @@ CormenBook\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\build
 .PHONY : CormenBook\fast
 
+data_structures\Heap\heap.obj: data_structures\Heap\heap.cpp.obj
+
+.PHONY : data_structures\Heap\heap.obj
+
+# target to build an object file
+data_structures\Heap\heap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\data_structures\Heap\heap.cpp.obj
+.PHONY : data_structures\Heap\heap.cpp.obj
+
+data_structures\Heap\heap.i: data_structures\Heap\heap.cpp.i
+
+.PHONY : data_structures\Heap\heap.i
+
+# target to preprocess a source file
+data_structures\Heap\heap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\data_structures\Heap\heap.cpp.i
+.PHONY : data_structures\Heap\heap.cpp.i
+
+data_structures\Heap\heap.s: data_structures\Heap\heap.cpp.s
+
+.PHONY : data_structures\Heap\heap.s
+
+# target to generate assembly for a file
+data_structures\Heap\heap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\data_structures\Heap\heap.cpp.s
+.PHONY : data_structures\Heap\heap.cpp.s
+
+data_structures\Heap\max_heap.obj: data_structures\Heap\max_heap.cpp.obj
+
+.PHONY : data_structures\Heap\max_heap.obj
+
+# target to build an object file
+data_structures\Heap\max_heap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\data_structures\Heap\max_heap.cpp.obj
+.PHONY : data_structures\Heap\max_heap.cpp.obj
+
+data_structures\Heap\max_heap.i: data_structures\Heap\max_heap.cpp.i
+
+.PHONY : data_structures\Heap\max_heap.i
+
+# target to preprocess a source file
+data_structures\Heap\max_heap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\data_structures\Heap\max_heap.cpp.i
+.PHONY : data_structures\Heap\max_heap.cpp.i
+
+data_structures\Heap\max_heap.s: data_structures\Heap\max_heap.cpp.s
+
+.PHONY : data_structures\Heap\max_heap.s
+
+# target to generate assembly for a file
+data_structures\Heap\max_heap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\data_structures\Heap\max_heap.cpp.s
+.PHONY : data_structures\Heap\max_heap.cpp.s
+
+data_structures\Heap\testing.obj: data_structures\Heap\testing.cpp.obj
+
+.PHONY : data_structures\Heap\testing.obj
+
+# target to build an object file
+data_structures\Heap\testing.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\data_structures\Heap\testing.cpp.obj
+.PHONY : data_structures\Heap\testing.cpp.obj
+
+data_structures\Heap\testing.i: data_structures\Heap\testing.cpp.i
+
+.PHONY : data_structures\Heap\testing.i
+
+# target to preprocess a source file
+data_structures\Heap\testing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\data_structures\Heap\testing.cpp.i
+.PHONY : data_structures\Heap\testing.cpp.i
+
+data_structures\Heap\testing.s: data_structures\Heap\testing.cpp.s
+
+.PHONY : data_structures\Heap\testing.s
+
+# target to generate assembly for a file
+data_structures\Heap\testing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CormenBook.dir\data_structures\Heap\testing.cpp.s
+.PHONY : data_structures\Heap\testing.cpp.s
+
 exercises\exercise2-4-d.obj: exercises\exercise2-4-d.cpp.obj
 
 .PHONY : exercises\exercise2-4-d.obj
@@ -298,6 +379,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CormenBook
+	@echo ... data_structures/Heap/heap.obj
+	@echo ... data_structures/Heap/heap.i
+	@echo ... data_structures/Heap/heap.s
+	@echo ... data_structures/Heap/max_heap.obj
+	@echo ... data_structures/Heap/max_heap.i
+	@echo ... data_structures/Heap/max_heap.s
+	@echo ... data_structures/Heap/testing.obj
+	@echo ... data_structures/Heap/testing.i
+	@echo ... data_structures/Heap/testing.s
 	@echo ... exercises/exercise2-4-d.obj
 	@echo ... exercises/exercise2-4-d.i
 	@echo ... exercises/exercise2-4-d.s

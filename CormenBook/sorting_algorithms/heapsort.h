@@ -22,7 +22,7 @@ void maxHeapify(std::vector<T>& data, int size, int index);
 template <class T>
 void heapsort(std::vector<T>& data);
 
-void testHeapsort();
+void testHeapSort();
 
 template<class T>
 void buildMaxHeap(std::vector<T> &data) {

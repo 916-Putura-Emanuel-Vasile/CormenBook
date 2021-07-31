@@ -27,6 +27,8 @@ sorting_algorithms/heapsort.h
 D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/sorting_algorithms/heapsort.h
 data_structures/Heap/testing.h
 D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/testing.h
+sorting_algorithms/quicksort.h
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/sorting_algorithms/quicksort.h
 iostream
 -
 
@@ -58,15 +60,21 @@ sstream
 string
 -
 
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/sorting_algorithms/heapsort.cpp
-heapsort.h
 D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/sorting_algorithms/heapsort.h
-iostream
--
-cassert
+vector
 -
 
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/sorting_algorithms/heapsort.h
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/sorting_algorithms/quicksort.cpp
+cassert
+-
+string
+-
+iostream
+-
+quicksort.h
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/sorting_algorithms/quicksort.h
+
+D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/sorting_algorithms/quicksort.h
 vector
 -
 

@@ -4,6 +4,7 @@
 #include "other_algorithms/permutations.h"
 #include "sorting_algorithms/heapsort.h"
 #include "data_structures/Heap/testing.h"
+#include "sorting_algorithms/quicksort.h"
 
 #include <iostream>
 
@@ -20,8 +21,9 @@ void test() {
     testFindMaximumSubarray();
     testPermuteByPriorityQueue();
     testRandomizeInPlace();
-    testHeapsort();
+    testHeapSort();
     testMaxHeap();
+    testQuickSort();
 
     std::cout << "All tests done!\n\n";
 }

@@ -412,6 +412,33 @@ sorting_algorithms/heapsort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/sorting_algorithms/heapsort.cpp.s
 .PHONY : sorting_algorithms/heapsort.cpp.s
 
+sorting_algorithms/quicksort.obj: sorting_algorithms/quicksort.cpp.obj
+
+.PHONY : sorting_algorithms/quicksort.obj
+
+# target to build an object file
+sorting_algorithms/quicksort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/sorting_algorithms/quicksort.cpp.obj
+.PHONY : sorting_algorithms/quicksort.cpp.obj
+
+sorting_algorithms/quicksort.i: sorting_algorithms/quicksort.cpp.i
+
+.PHONY : sorting_algorithms/quicksort.i
+
+# target to preprocess a source file
+sorting_algorithms/quicksort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/sorting_algorithms/quicksort.cpp.i
+.PHONY : sorting_algorithms/quicksort.cpp.i
+
+sorting_algorithms/quicksort.s: sorting_algorithms/quicksort.cpp.s
+
+.PHONY : sorting_algorithms/quicksort.s
+
+# target to generate assembly for a file
+sorting_algorithms/quicksort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/sorting_algorithms/quicksort.cpp.s
+.PHONY : sorting_algorithms/quicksort.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -451,6 +478,9 @@ help:
 	@echo ... sorting_algorithms/heapsort.obj
 	@echo ... sorting_algorithms/heapsort.i
 	@echo ... sorting_algorithms/heapsort.s
+	@echo ... sorting_algorithms/quicksort.obj
+	@echo ... sorting_algorithms/quicksort.i
+	@echo ... sorting_algorithms/quicksort.s
 .PHONY : help
 
 

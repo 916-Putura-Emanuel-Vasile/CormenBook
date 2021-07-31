@@ -137,6 +137,12 @@
 		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/sorting_algorithms/heapsort.h">
 			<Option target="CormenBook"/>
 		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/sorting_algorithms/quicksort.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/sorting_algorithms/quicksort.h">
+			<Option target="CormenBook"/>
+		</Unit>
 		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

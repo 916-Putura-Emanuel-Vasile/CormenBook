@@ -7,6 +7,7 @@
 #include "sorting_algorithms/quicksort.h"
 #include "sorting_algorithms/randomized_quicksort.h"
 #include "sorting_algorithms/counting_sort.h"
+#include "sorting_algorithms/radix_sort.h"
 
 #include <iostream>
 
@@ -28,6 +29,7 @@ void test() {
     testQuickSort();
     testRandomizedQuickSort();
     testCountingSort();
+    testRadixSort();
 
     std::cout << "All tests done!\n\n";
 }

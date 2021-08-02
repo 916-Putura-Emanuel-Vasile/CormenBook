@@ -10,7 +10,7 @@
 
 void countingSort(std::vector<int> &data, int max_limit) {
     std::vector<int> counter (max_limit + 1, 0);
-    std::vector<int> result (data.size(), 0);
+    std::vector<int> result (data.size());
 
     for (int i = 0; i < data.size(); ++i)
         counter[data[i]]++;

@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CormenBook.dir/other_algorithms/polynomial_eval_horner_rule.cpp.obj"
   "CMakeFiles/CormenBook.dir/sorting_algorithms/heapsort.cpp.obj"
   "CMakeFiles/CormenBook.dir/sorting_algorithms/quicksort.cpp.obj"
+  "CMakeFiles/CormenBook.dir/sorting_algorithms/randomized_quicksort.cpp.obj"
   "CormenBook.exe"
   "CormenBook.exe.manifest"
   "CormenBook.pdb"

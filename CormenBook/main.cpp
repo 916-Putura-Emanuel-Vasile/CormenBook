@@ -5,6 +5,7 @@
 #include "sorting_algorithms/heapsort.h"
 #include "data_structures/Heap/testing.h"
 #include "sorting_algorithms/quicksort.h"
+#include "sorting_algorithms/randomized_quicksort.h"
 
 #include <iostream>
 
@@ -24,6 +25,7 @@ void test() {
     testHeapSort();
     testMaxHeap();
     testQuickSort();
+    testRandomizedQuickSort();
 
     std::cout << "All tests done!\n\n";
 }

@@ -439,6 +439,33 @@ sorting_algorithms/quicksort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/sorting_algorithms/quicksort.cpp.s
 .PHONY : sorting_algorithms/quicksort.cpp.s
 
+sorting_algorithms/randomized_quicksort.obj: sorting_algorithms/randomized_quicksort.cpp.obj
+
+.PHONY : sorting_algorithms/randomized_quicksort.obj
+
+# target to build an object file
+sorting_algorithms/randomized_quicksort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/sorting_algorithms/randomized_quicksort.cpp.obj
+.PHONY : sorting_algorithms/randomized_quicksort.cpp.obj
+
+sorting_algorithms/randomized_quicksort.i: sorting_algorithms/randomized_quicksort.cpp.i
+
+.PHONY : sorting_algorithms/randomized_quicksort.i
+
+# target to preprocess a source file
+sorting_algorithms/randomized_quicksort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/sorting_algorithms/randomized_quicksort.cpp.i
+.PHONY : sorting_algorithms/randomized_quicksort.cpp.i
+
+sorting_algorithms/randomized_quicksort.s: sorting_algorithms/randomized_quicksort.cpp.s
+
+.PHONY : sorting_algorithms/randomized_quicksort.s
+
+# target to generate assembly for a file
+sorting_algorithms/randomized_quicksort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/sorting_algorithms/randomized_quicksort.cpp.s
+.PHONY : sorting_algorithms/randomized_quicksort.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -481,6 +508,9 @@ help:
 	@echo ... sorting_algorithms/quicksort.obj
 	@echo ... sorting_algorithms/quicksort.i
 	@echo ... sorting_algorithms/quicksort.s
+	@echo ... sorting_algorithms/randomized_quicksort.obj
+	@echo ... sorting_algorithms/randomized_quicksort.i
+	@echo ... sorting_algorithms/randomized_quicksort.s
 .PHONY : help
 
 

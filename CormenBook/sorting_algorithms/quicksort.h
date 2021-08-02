@@ -33,8 +33,8 @@ template<class T>
 void quicksort(std::vector<T> &data, int begin, int end) {
     if (begin < end) {
         int pivot_index = partition<T>(data, begin, end);
-        quicksort(data, begin, pivot_index - 1);
-        quicksort(data, pivot_index + 1, end);
+        quicksort<T>(data, begin, pivot_index - 1);
+        quicksort<T>(data, pivot_index + 1, end);
     }
 }
 

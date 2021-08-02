@@ -26,6 +26,7 @@ CMakeFiles/CormenBook.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/CormenBook.dir/main.cpp.obj: ../other_algorithms/maximum_subarray_problem.h
 CMakeFiles/CormenBook.dir/main.cpp.obj: ../other_algorithms/permutations.h
 CMakeFiles/CormenBook.dir/main.cpp.obj: ../other_algorithms/polynomial_eval_horner_rule.h
+CMakeFiles/CormenBook.dir/main.cpp.obj: ../sorting_algorithms/counting_sort.h
 CMakeFiles/CormenBook.dir/main.cpp.obj: ../sorting_algorithms/heapsort.h
 CMakeFiles/CormenBook.dir/main.cpp.obj: ../sorting_algorithms/quicksort.h
 CMakeFiles/CormenBook.dir/main.cpp.obj: ../sorting_algorithms/randomized_quicksort.h
@@ -38,6 +39,9 @@ CMakeFiles/CormenBook.dir/other_algorithms/permutations.cpp.obj: ../other_algori
 
 CMakeFiles/CormenBook.dir/other_algorithms/polynomial_eval_horner_rule.cpp.obj: ../other_algorithms/polynomial_eval_horner_rule.cpp
 CMakeFiles/CormenBook.dir/other_algorithms/polynomial_eval_horner_rule.cpp.obj: ../other_algorithms/polynomial_eval_horner_rule.h
+
+CMakeFiles/CormenBook.dir/sorting_algorithms/counting_sort.cpp.obj: ../sorting_algorithms/counting_sort.cpp
+CMakeFiles/CormenBook.dir/sorting_algorithms/counting_sort.cpp.obj: ../sorting_algorithms/counting_sort.h
 
 CMakeFiles/CormenBook.dir/sorting_algorithms/heapsort.cpp.obj: ../sorting_algorithms/heapsort.cpp
 CMakeFiles/CormenBook.dir/sorting_algorithms/heapsort.cpp.obj: ../sorting_algorithms/heapsort.h

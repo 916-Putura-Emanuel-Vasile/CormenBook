@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CormenBook.dir/other_algorithms/maximum_subarray_problem.cpp.obj"
   "CMakeFiles/CormenBook.dir/other_algorithms/permutations.cpp.obj"
   "CMakeFiles/CormenBook.dir/other_algorithms/polynomial_eval_horner_rule.cpp.obj"
+  "CMakeFiles/CormenBook.dir/sorting_algorithms/counting_sort.cpp.obj"
   "CMakeFiles/CormenBook.dir/sorting_algorithms/heapsort.cpp.obj"
   "CMakeFiles/CormenBook.dir/sorting_algorithms/quicksort.cpp.obj"
   "CMakeFiles/CormenBook.dir/sorting_algorithms/randomized_quicksort.cpp.obj"

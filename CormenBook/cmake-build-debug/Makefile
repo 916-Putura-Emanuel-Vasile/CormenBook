@@ -385,6 +385,33 @@ other_algorithms/polynomial_eval_horner_rule.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/other_algorithms/polynomial_eval_horner_rule.cpp.s
 .PHONY : other_algorithms/polynomial_eval_horner_rule.cpp.s
 
+sorting_algorithms/counting_sort.obj: sorting_algorithms/counting_sort.cpp.obj
+
+.PHONY : sorting_algorithms/counting_sort.obj
+
+# target to build an object file
+sorting_algorithms/counting_sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/sorting_algorithms/counting_sort.cpp.obj
+.PHONY : sorting_algorithms/counting_sort.cpp.obj
+
+sorting_algorithms/counting_sort.i: sorting_algorithms/counting_sort.cpp.i
+
+.PHONY : sorting_algorithms/counting_sort.i
+
+# target to preprocess a source file
+sorting_algorithms/counting_sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/sorting_algorithms/counting_sort.cpp.i
+.PHONY : sorting_algorithms/counting_sort.cpp.i
+
+sorting_algorithms/counting_sort.s: sorting_algorithms/counting_sort.cpp.s
+
+.PHONY : sorting_algorithms/counting_sort.s
+
+# target to generate assembly for a file
+sorting_algorithms/counting_sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/sorting_algorithms/counting_sort.cpp.s
+.PHONY : sorting_algorithms/counting_sort.cpp.s
+
 sorting_algorithms/heapsort.obj: sorting_algorithms/heapsort.cpp.obj
 
 .PHONY : sorting_algorithms/heapsort.obj
@@ -502,6 +529,9 @@ help:
 	@echo ... other_algorithms/polynomial_eval_horner_rule.obj
 	@echo ... other_algorithms/polynomial_eval_horner_rule.i
 	@echo ... other_algorithms/polynomial_eval_horner_rule.s
+	@echo ... sorting_algorithms/counting_sort.obj
+	@echo ... sorting_algorithms/counting_sort.i
+	@echo ... sorting_algorithms/counting_sort.s
 	@echo ... sorting_algorithms/heapsort.obj
 	@echo ... sorting_algorithms/heapsort.i
 	@echo ... sorting_algorithms/heapsort.s

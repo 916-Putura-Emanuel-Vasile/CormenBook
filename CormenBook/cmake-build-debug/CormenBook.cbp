@@ -131,6 +131,12 @@
 		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/other_algorithms/polynomial_eval_horner_rule.h">
 			<Option target="CormenBook"/>
 		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/other_algorithms/selection_of_ith_smaller_element.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/other_algorithms/selection_of_ith_smaller_element.h">
+			<Option target="CormenBook"/>
+		</Unit>
 		<Unit filename="D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/sorting_algorithms/counting_sort.cpp">
 			<Option target="CormenBook"/>
 		</Unit>

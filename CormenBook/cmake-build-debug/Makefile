@@ -385,6 +385,33 @@ other_algorithms/polynomial_eval_horner_rule.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/other_algorithms/polynomial_eval_horner_rule.cpp.s
 .PHONY : other_algorithms/polynomial_eval_horner_rule.cpp.s
 
+other_algorithms/selection_of_ith_smaller_element.obj: other_algorithms/selection_of_ith_smaller_element.cpp.obj
+
+.PHONY : other_algorithms/selection_of_ith_smaller_element.obj
+
+# target to build an object file
+other_algorithms/selection_of_ith_smaller_element.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/other_algorithms/selection_of_ith_smaller_element.cpp.obj
+.PHONY : other_algorithms/selection_of_ith_smaller_element.cpp.obj
+
+other_algorithms/selection_of_ith_smaller_element.i: other_algorithms/selection_of_ith_smaller_element.cpp.i
+
+.PHONY : other_algorithms/selection_of_ith_smaller_element.i
+
+# target to preprocess a source file
+other_algorithms/selection_of_ith_smaller_element.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/other_algorithms/selection_of_ith_smaller_element.cpp.i
+.PHONY : other_algorithms/selection_of_ith_smaller_element.cpp.i
+
+other_algorithms/selection_of_ith_smaller_element.s: other_algorithms/selection_of_ith_smaller_element.cpp.s
+
+.PHONY : other_algorithms/selection_of_ith_smaller_element.s
+
+# target to generate assembly for a file
+other_algorithms/selection_of_ith_smaller_element.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/other_algorithms/selection_of_ith_smaller_element.cpp.s
+.PHONY : other_algorithms/selection_of_ith_smaller_element.cpp.s
+
 sorting_algorithms/counting_sort.obj: sorting_algorithms/counting_sort.cpp.obj
 
 .PHONY : sorting_algorithms/counting_sort.obj
@@ -556,6 +583,9 @@ help:
 	@echo ... other_algorithms/polynomial_eval_horner_rule.obj
 	@echo ... other_algorithms/polynomial_eval_horner_rule.i
 	@echo ... other_algorithms/polynomial_eval_horner_rule.s
+	@echo ... other_algorithms/selection_of_ith_smaller_element.obj
+	@echo ... other_algorithms/selection_of_ith_smaller_element.i
+	@echo ... other_algorithms/selection_of_ith_smaller_element.s
 	@echo ... sorting_algorithms/counting_sort.obj
 	@echo ... sorting_algorithms/counting_sort.i
 	@echo ... sorting_algorithms/counting_sort.s

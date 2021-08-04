@@ -17,7 +17,10 @@ namespace SelectionInLinearTime {
     int randomizedPartition(std::vector<T> &data, int left, int right);
 
     template<class T>
-    T selectIthSmallerElement(std::vector<T> &data, int left, int right, int order);
+    T selectIthSmallerElementRecursively(std::vector<T> &data, int left, int right, int order);
+
+    template <class T>
+    T selectIthSmallerElementIteratively(std::vector<T>& data, int order);
 }
 
 void testSelectIthSmallerElement();
@@ -48,20 +51,44 @@ int SelectionInLinearTime::randomizedPartition(std::vector<T>& data, int left, i
 }
 
 template<class T>
-T SelectionInLinearTime::selectIthSmallerElement(std::vector<T> &data, int left, int right, int order) {
+T SelectionInLinearTime::selectIthSmallerElementRecursively(std::vector<T> &data, int left, int right, int order) {
     if (left == right)
         return data[left];
 
     int pivot_index = SelectionInLinearTime::randomizedPartition<T>(data, left, right);
-    int less_equal_pivot = pivot_index - left + 1;
+    int less_or_equal_than_pivot = pivot_index - left + 1;
 
-    if (less_equal_pivot == order)
+    if (less_or_equal_than_pivot == order)
         return data[pivot_index];
 
-    if (order < less_equal_pivot)
-        return SelectionInLinearTime::selectIthSmallerElement<T>(data, left, pivot_index - 1, order);
+    if (order < less_or_equal_than_pivot)
+        return SelectionInLinearTime::selectIthSmallerElementRecursively<T>(data, left, pivot_index - 1, order);
     else
-        return SelectionInLinearTime::selectIthSmallerElement<T>(data, pivot_index + 1, right, order - less_equal_pivot);
+        return SelectionInLinearTime::selectIthSmallerElementRecursively<T>(data, pivot_index + 1, right,
+                                                                            order - less_or_equal_than_pivot);
+}
+
+template<class T>
+T SelectionInLinearTime::selectIthSmallerElementIteratively(std::vector<T> &data, int order) {
+    int left = 0, right = data.size() - 1;
+
+    while (true) {
+        if (left == right)
+            return data[left];
+
+        int pivot_index = SelectionInLinearTime::randomizedPartition<T>(data, left, right);
+        int less_or_equal_than_pivot = pivot_index  - left + 1;
+
+        if (less_or_equal_than_pivot == order)
+            return data[pivot_index];
+
+        if (less_or_equal_than_pivot < order) {
+            left = pivot_index + 1;
+            order -= less_or_equal_than_pivot;
+        }
+        else
+            right = pivot_index - 1;
+    }
 }
 
 #endif //CORMENBOOK_SELECTION_OF_ITH_SMALLER_ELEMENT_H

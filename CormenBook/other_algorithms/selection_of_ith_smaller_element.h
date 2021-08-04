@@ -42,7 +42,6 @@ int SelectionInLinearTime::partition(std::vector<T>& data, int left, int right) 
 
 template <class T>
 int SelectionInLinearTime::randomizedPartition(std::vector<T>& data, int left, int right) {
-    std::cout << left << ' ' << right << ' ' << right - left + 1 << '\n';
     int random_index = left + rand() % (right - left + 1);
     std::swap(data[random_index], data[right]);
     return SelectionInLinearTime::partition<T>(data, left, right);
@@ -54,16 +53,15 @@ T SelectionInLinearTime::selectIthSmallerElement(std::vector<T> &data, int left,
         return data[left];
 
     int pivot_index = SelectionInLinearTime::randomizedPartition<T>(data, left, right);
-    int less_than_pivot = pivot_index - left + 1;
+    int less_equal_pivot = pivot_index - left + 1;
 
-    if (pivot_index == order - 1)
+    if (less_equal_pivot == order)
         return data[pivot_index];
 
-    std::cout << "AAA " << order << ' ' << less_than_pivot << '\n';
-    if (order < less_than_pivot)
+    if (order < less_equal_pivot)
         return SelectionInLinearTime::selectIthSmallerElement<T>(data, left, pivot_index - 1, order);
     else
-        return SelectionInLinearTime::selectIthSmallerElement<T>(data, pivot_index + 1, right, order - pivot_index - 1);
+        return SelectionInLinearTime::selectIthSmallerElement<T>(data, pivot_index + 1, right, order - less_equal_pivot);
 }
 
 #endif //CORMENBOOK_SELECTION_OF_ITH_SMALLER_ELEMENT_H

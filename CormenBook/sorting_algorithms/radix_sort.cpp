@@ -69,5 +69,11 @@ void testRadixSort() {
     radixSort(v5, 3);
     assert(v5 == r5);
 
-    std::cout << "...testing counting sort algorithm\n";
+    std::vector<int> v6 {329, 457, 65, 8, 43, 20, 355};
+    std::vector<int> r6 {8, 20, 43, 65, 329, 355, 457};
+
+    radixSort(v6, 3);
+    assert(v6 == r6);
+
+    std::cout << "...testing radix sort algorithm\n";
 }

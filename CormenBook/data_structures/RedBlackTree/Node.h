@@ -8,11 +8,11 @@
 
 template <class K, class D>
 struct Node {
-    K key;
-    D data;
+    K key;                        // key of the node
+    D data;                       // information carried with the key
 
-    Node *parent, *left, *right;
-    bool color;  // true if black, false else
+    Node *parent, *left, *right;  // links in the tree
+    bool color;                   // true if black, false else
 };
 
 

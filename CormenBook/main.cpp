@@ -9,6 +9,7 @@
 #include "sorting_algorithms/counting_sort.h"
 #include "sorting_algorithms/radix_sort.h"
 #include "other_algorithms/selection_of_ith_smaller_element.h"
+#include "data_structures/RedBlackTree/rbt_testing.h"
 
 #include <iostream>
 
@@ -32,6 +33,7 @@ void test() {
     testCountingSort();
     testRadixSort();
     testSelectIthSmallerElement();
+    testRedBlackTree();
 
     std::cout << "All tests done!\n\n";
 }

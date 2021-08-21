@@ -277,6 +277,33 @@ data_structures/RedBlackTree/RedBlackTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/RedBlackTree.cpp.s
 .PHONY : data_structures/RedBlackTree/RedBlackTree.cpp.s
 
+data_structures/RedBlackTree/rbt_testing.obj: data_structures/RedBlackTree/rbt_testing.cpp.obj
+
+.PHONY : data_structures/RedBlackTree/rbt_testing.obj
+
+# target to build an object file
+data_structures/RedBlackTree/rbt_testing.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/rbt_testing.cpp.obj
+.PHONY : data_structures/RedBlackTree/rbt_testing.cpp.obj
+
+data_structures/RedBlackTree/rbt_testing.i: data_structures/RedBlackTree/rbt_testing.cpp.i
+
+.PHONY : data_structures/RedBlackTree/rbt_testing.i
+
+# target to preprocess a source file
+data_structures/RedBlackTree/rbt_testing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/rbt_testing.cpp.i
+.PHONY : data_structures/RedBlackTree/rbt_testing.cpp.i
+
+data_structures/RedBlackTree/rbt_testing.s: data_structures/RedBlackTree/rbt_testing.cpp.s
+
+.PHONY : data_structures/RedBlackTree/rbt_testing.s
+
+# target to generate assembly for a file
+data_structures/RedBlackTree/rbt_testing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/rbt_testing.cpp.s
+.PHONY : data_structures/RedBlackTree/rbt_testing.cpp.s
+
 exercises/exercise2-4-d.obj: exercises/exercise2-4-d.cpp.obj
 
 .PHONY : exercises/exercise2-4-d.obj
@@ -598,6 +625,9 @@ help:
 	@echo ... data_structures/RedBlackTree/RedBlackTree.obj
 	@echo ... data_structures/RedBlackTree/RedBlackTree.i
 	@echo ... data_structures/RedBlackTree/RedBlackTree.s
+	@echo ... data_structures/RedBlackTree/rbt_testing.obj
+	@echo ... data_structures/RedBlackTree/rbt_testing.i
+	@echo ... data_structures/RedBlackTree/rbt_testing.s
 	@echo ... exercises/exercise2-4-d.obj
 	@echo ... exercises/exercise2-4-d.i
 	@echo ... exercises/exercise2-4-d.s

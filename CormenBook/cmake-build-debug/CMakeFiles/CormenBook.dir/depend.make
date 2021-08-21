@@ -17,10 +17,20 @@ CMakeFiles/CormenBook.dir/data_structures/Heap/testing.cpp.obj: ../data_structur
 CMakeFiles/CormenBook.dir/data_structures/Heap/testing.cpp.obj: ../data_structures/Heap/testing.cpp
 CMakeFiles/CormenBook.dir/data_structures/Heap/testing.cpp.obj: ../data_structures/Heap/testing.h
 
+CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/RedBlackTree.cpp.obj: ../data_structures/RedBlackTree/Node.h
+CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/RedBlackTree.cpp.obj: ../data_structures/RedBlackTree/RedBlackTree.cpp
+CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/RedBlackTree.cpp.obj: ../data_structures/RedBlackTree/RedBlackTree.h
+
+CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/rbt_testing.cpp.obj: ../data_structures/RedBlackTree/Node.h
+CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/rbt_testing.cpp.obj: ../data_structures/RedBlackTree/RedBlackTree.h
+CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/rbt_testing.cpp.obj: ../data_structures/RedBlackTree/rbt_testing.cpp
+CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/rbt_testing.cpp.obj: ../data_structures/RedBlackTree/rbt_testing.h
+
 CMakeFiles/CormenBook.dir/exercises/exercise2-4-d.cpp.obj: ../exercises/exercise2-4-d.cpp
 CMakeFiles/CormenBook.dir/exercises/exercise2-4-d.cpp.obj: ../exercises/exercise2-4-d.h
 
 CMakeFiles/CormenBook.dir/main.cpp.obj: ../data_structures/Heap/testing.h
+CMakeFiles/CormenBook.dir/main.cpp.obj: ../data_structures/RedBlackTree/rbt_testing.h
 CMakeFiles/CormenBook.dir/main.cpp.obj: ../exercises/exercise2-4-d.h
 CMakeFiles/CormenBook.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/CormenBook.dir/main.cpp.obj: ../other_algorithms/maximum_subarray_problem.h

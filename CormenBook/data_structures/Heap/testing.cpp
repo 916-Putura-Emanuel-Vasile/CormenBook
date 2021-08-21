@@ -28,5 +28,5 @@ void testMaxHeap() {
     assert(h1.size() == 10);
     assert(h1.top() == 14);
 
-    std::cout << "...testing max heap class\n";
+    std::cout << "...testing max heap data structure\n";
 }

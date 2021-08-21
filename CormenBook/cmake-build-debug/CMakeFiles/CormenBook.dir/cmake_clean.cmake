@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CormenBook.dir/data_structures/Heap/max_heap.cpp.obj"
   "CMakeFiles/CormenBook.dir/data_structures/Heap/min_heap.cpp.obj"
   "CMakeFiles/CormenBook.dir/data_structures/Heap/testing.cpp.obj"
+  "CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/RedBlackTree.cpp.obj"
   "CMakeFiles/CormenBook.dir/exercises/exercise2-4-d.cpp.obj"
   "CMakeFiles/CormenBook.dir/main.cpp.obj"
   "CMakeFiles/CormenBook.dir/other_algorithms/maximum_subarray_problem.cpp.obj"

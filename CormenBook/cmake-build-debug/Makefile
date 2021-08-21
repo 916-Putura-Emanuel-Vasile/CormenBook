@@ -250,6 +250,33 @@ data_structures/Heap/testing.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/data_structures/Heap/testing.cpp.s
 .PHONY : data_structures/Heap/testing.cpp.s
 
+data_structures/RedBlackTree/RedBlackTree.obj: data_structures/RedBlackTree/RedBlackTree.cpp.obj
+
+.PHONY : data_structures/RedBlackTree/RedBlackTree.obj
+
+# target to build an object file
+data_structures/RedBlackTree/RedBlackTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/RedBlackTree.cpp.obj
+.PHONY : data_structures/RedBlackTree/RedBlackTree.cpp.obj
+
+data_structures/RedBlackTree/RedBlackTree.i: data_structures/RedBlackTree/RedBlackTree.cpp.i
+
+.PHONY : data_structures/RedBlackTree/RedBlackTree.i
+
+# target to preprocess a source file
+data_structures/RedBlackTree/RedBlackTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/RedBlackTree.cpp.i
+.PHONY : data_structures/RedBlackTree/RedBlackTree.cpp.i
+
+data_structures/RedBlackTree/RedBlackTree.s: data_structures/RedBlackTree/RedBlackTree.cpp.s
+
+.PHONY : data_structures/RedBlackTree/RedBlackTree.s
+
+# target to generate assembly for a file
+data_structures/RedBlackTree/RedBlackTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CormenBook.dir\build.make CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/RedBlackTree.cpp.s
+.PHONY : data_structures/RedBlackTree/RedBlackTree.cpp.s
+
 exercises/exercise2-4-d.obj: exercises/exercise2-4-d.cpp.obj
 
 .PHONY : exercises/exercise2-4-d.obj
@@ -568,6 +595,9 @@ help:
 	@echo ... data_structures/Heap/testing.obj
 	@echo ... data_structures/Heap/testing.i
 	@echo ... data_structures/Heap/testing.s
+	@echo ... data_structures/RedBlackTree/RedBlackTree.obj
+	@echo ... data_structures/RedBlackTree/RedBlackTree.i
+	@echo ... data_structures/RedBlackTree/RedBlackTree.s
 	@echo ... exercises/exercise2-4-d.obj
 	@echo ... exercises/exercise2-4-d.i
 	@echo ... exercises/exercise2-4-d.s

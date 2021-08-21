@@ -18,6 +18,12 @@ void testRedBlackTree() {
 
     t1.insert(4, "b");
     t1.insert(3, "c");
+
+    auto root = t1.root();
+    assert(root->key == 4);
+    assert(root->left->key == 3);
+    assert(root->right->key == 6);
+
     t1.insert(7, "d");
     t1.insert(10, "e");
     assert(t1.size() == 5);

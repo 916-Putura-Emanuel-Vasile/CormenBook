@@ -23,7 +23,7 @@ public:
     void insert(const K& key, const D& data);
 
     int size() const;
-    const Node<K, D>* &root() const;
+    Node<K, D>* root() const;
 private:
     void initNode(Node<K, D>* &node, const K& key, const D& data) const;
     void recursiveInorderTraversal(Node<K, D> *subtree_root, std::ostream& os) const;
@@ -40,6 +40,7 @@ private:
 
 template<class K, class D>
 RedBlackTree<K, D>::RedBlackTree() : nil {new Node<K, D>}, nodes_number {0} {
+    nil->color = true;
     tree_root = nil;
 }
 
@@ -57,10 +58,12 @@ void RedBlackTree<K, D>::initNode(Node<K, D>* &node, const K& key, const D& data
 template<class K, class D>
 void RedBlackTree<K, D>::leftRotate(Node<K, D> *subtree_root) {
     auto new_root = subtree_root->right;
+    if (new_root == nil)
+        return;
+
     subtree_root->right = new_root->left;
     new_root->left->parent = subtree_root;
     new_root->parent = subtree_root->parent;
-    subtree_root->parent = new_root;
 
     if (subtree_root->parent == nil)
         tree_root = new_root;
@@ -68,15 +71,20 @@ void RedBlackTree<K, D>::leftRotate(Node<K, D> *subtree_root) {
         new_root->parent->right = new_root;
     else if (new_root->parent->left == subtree_root)
         new_root->parent->left = new_root;
+
+    subtree_root->parent = new_root;
+    new_root->left = subtree_root;
 }
 
 template<class K, class D>
 void RedBlackTree<K, D>::rightRotate(Node<K, D> *subtree_root) {
     auto new_root = subtree_root->left;
+    if (new_root == nil)
+        return;
+
     subtree_root->left = new_root->right;
     new_root->right->parent = subtree_root;
     new_root->parent = subtree_root->parent;
-    subtree_root->parent = new_root;
 
     if (subtree_root->parent == nil)
         tree_root = new_root;
@@ -84,6 +92,9 @@ void RedBlackTree<K, D>::rightRotate(Node<K, D> *subtree_root) {
         new_root->parent->right = new_root;
     else if (new_root->parent->left == subtree_root)
         new_root->parent->left = new_root;
+
+    subtree_root->parent = new_root;
+    new_root->right = subtree_root;
 }
 
 template<class K, class D>
@@ -131,11 +142,41 @@ void RedBlackTree<K, D>::insertFixup(Node<K, D> *node) {
     while (!node->parent->color) {  // while the color of the node's parent is red
         if (node->parent == node->parent->parent->left) {
             auto uncle_node = node->parent->parent->right;
-            if (!uncle_node->color) {  // if the color of the uncle node is red
-
+            if (!uncle_node->color) {  // if the color of the uncle node is red, just change the colors of the uncle and of the parent to black, the grandfather's color to red and continue
+                node->parent->color = true;
+                uncle_node->color = true;
+                node->parent->parent->color = false;
+                node = node->parent->parent;
             }
+            else if (node == node->parent->right) {
+                node = node->parent;
+                leftRotate(node);
+            }
+
+            node->parent->color = true;
+            node->parent->parent->color = false;
+            rightRotate(node->parent->parent);
+        }
+        else {
+            auto uncle_node = node->parent->parent->left;
+            if (!uncle_node->color) {  // if the color of the uncle node is red, just change the colors of the uncle and of the parent to black, the grandfather's color to red and continue
+                node->parent->color = true;
+                uncle_node->color = true;
+                node->parent->parent->color = false;
+                node = node->parent->parent;
+            }
+            else if (node == node->parent->left) {
+                node = node->parent;
+                rightRotate(node);
+            }
+
+            node->parent->color = true;
+            node->parent->parent->color = false;
+            leftRotate(node->parent->parent);
         }
     }
+
+    tree_root->color = true;
 }
 
 template<class K, class D>
@@ -144,7 +185,7 @@ int RedBlackTree<K, D>::size() const {
 }
 
 template<class K, class D>
-const Node<K, D> *&RedBlackTree<K, D>::root() const{
+Node<K, D>* RedBlackTree<K, D>::root() const{
     return tree_root;
 }
 

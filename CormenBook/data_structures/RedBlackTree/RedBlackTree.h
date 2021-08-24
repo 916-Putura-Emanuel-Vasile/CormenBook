@@ -148,15 +148,16 @@ void RedBlackTree<K, D>::insertFixup(Node<K, D> *node) {
                 uncle_node->color = true;
                 node->parent->parent->color = false;
                 node = node->parent->parent;
-            }
-            else if (node == node->parent->right) {
-                node = node->parent;
-                leftRotate(node);
-            }
+            } else {
+                if (node == node->parent->right) {
+                    node = node->parent;
+                    leftRotate(node);
+                }
 
-            node->parent->color = true;
-            node->parent->parent->color = false;
-            rightRotate(node->parent->parent);
+                node->parent->color = true;
+                node->parent->parent->color = false;
+                rightRotate(node->parent->parent);
+            }
         }
         else {
             auto uncle_node = node->parent->parent->left;

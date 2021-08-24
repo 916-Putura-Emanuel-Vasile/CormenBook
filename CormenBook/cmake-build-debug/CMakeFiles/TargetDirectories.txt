@@ -1,3 +1,3 @@
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles/CormenBook.dir
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles/CormenBook.dir

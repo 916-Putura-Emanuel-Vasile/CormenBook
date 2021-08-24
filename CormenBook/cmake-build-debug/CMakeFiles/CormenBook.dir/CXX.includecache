@@ -6,19 +6,23 @@
 
 #IncludeRegexTransform: 
 
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/Node.h
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/Node.h
 
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/RedBlackTree.h
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/RedBlackTree.cpp
+RedBlackTree.h
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/RedBlackTree.h
+
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/RedBlackTree.h
 iostream
 -
 Node.h
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/Node.h
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/Node.h
 
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/rbt_testing.cpp
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/rbt_testing.cpp
 rbt_testing.h
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/rbt_testing.h
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/rbt_testing.h
 RedBlackTree.h
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/RedBlackTree.h
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/RedBlackTree.h
 iostream
 -
 sstream
@@ -28,5 +32,5 @@ cassert
 string
 -
 
-D:/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/rbt_testing.h
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/rbt_testing.h
 

@@ -18,7 +18,7 @@ private:
     int nodes_number;
 public:
     RedBlackTree();
-
+    ~RedBlackTree();
     void inorderTraversal(std::ostream& os) const;
     void insert(const K& key, const D& data);
 
@@ -27,6 +27,7 @@ public:
 private:
     void initNode(Node<K, D>* &node, const K& key, const D& data) const;
     void recursiveInorderTraversal(Node<K, D> *subtree_root, std::ostream& os) const;
+    void deleteRecursively(Node<K, D> *subtree_root);
 
     void leftRotate(Node<K, D> *subtree_root);
     void rightRotate(Node<K, D> *subtree_root);
@@ -189,6 +190,21 @@ int RedBlackTree<K, D>::size() const {
 template<class K, class D>
 Node<K, D>* RedBlackTree<K, D>::root() const{
     return tree_root;
+}
+
+template<class K, class D>
+RedBlackTree<K, D>::~RedBlackTree() {
+    deleteRecursively(tree_root);
+    delete nil;
+}
+
+template<class K, class D>
+void RedBlackTree<K, D>::deleteRecursively(Node<K, D> *subtree_root) {
+    if (subtree_root != nil) {
+        deleteRecursively(subtree_root->left);
+        deleteRecursively(subtree_root->right);
+        delete subtree_root;
+    }
 }
 
 

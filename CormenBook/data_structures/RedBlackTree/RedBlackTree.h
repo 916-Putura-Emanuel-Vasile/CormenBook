@@ -53,6 +53,7 @@ private:
     Node<K, D>* subtree_maximum(Node<K, D> *root) const;
 
     void insertFixup(Node<K, D> *node);
+    void deleteFixup(Node<K, D> *node);
 };
 
 /*
@@ -238,7 +239,6 @@ void RedBlackTree<K, D>::transplant(Node<K, D> *initial_node, Node<K, D> *new_no
         initial_node->parent->left = new_node;
 
     new_node->parent = initial_node->parent;
-    delete initial_node;
 }
 
 template<class K, class D>
@@ -247,8 +247,37 @@ void RedBlackTree<K, D>::remove(const K &key) {
     if (node == nil)
         throw RedBlackTreeException("The key to be removed was not found.");
 
+    auto changing_node = node;  // if node has less than two children, than changing_node is node; else, it is the successor of node
+    auto replace_node = nil;    // the node that replaces the deleted/moved one (i.e., changing_node)
+    auto changing_node_original_color = changing_node->color;  // the original color of the changing node
 
+    if (node->right == nil) {
+        replace_node = node->left;
+        transplant(node, node->left);
+    }
+    else if (node->left == nil) {
+        replace_node = node->right;
+        transplant(node, node->right);
+    }
+    else {
+        changing_node = subtree_minimum(node->right);
+        changing_node_original_color = changing_node->color;
+        replace_node = changing_node->right;  // the minimum only has a right child
 
+        transplant(changing_node, changing_node->right);
+        changing_node->right = node->right;
+        changing_node->right->parent = changing_node;
+        transplant(node, changing_node);
+        changing_node->left = node->left;
+        changing_node->left->parent = changing_node;
+        changing_node->color = node->color;
+    }
+
+    // only if the original color of changing_node was black
+    if (changing_node_original_color)
+        deleteFixup(replace_node);
+    nodes_number--;
+    delete node;
 }
 
 template<class K, class D>
@@ -293,6 +322,65 @@ Node<K, D>* RedBlackTree<K, D>::subtree_maximum(Node<K, D> *root) const {
         root = root->right;
     }
     return previous;
+}
+
+template<class K, class D>
+void RedBlackTree<K, D>::deleteFixup(Node<K, D> *node) {
+    while (node != tree_root && node->color) {
+        if (node == node->parent->left) {
+            auto sibling = node->parent->right;
+            if (!sibling->color) {  // case 1 - sibling color is red
+                sibling->color = true;
+                node->parent->color = false;
+                leftRotate(node->parent);
+                sibling = node->parent->right;
+            }
+            if (sibling->left->color && sibling->right->color) {  // case 2 - sibling is black and both its children are black
+                sibling->color = false;
+                node = node->parent;
+            }
+            else if (sibling->right->color) {  // case 3 - sibling is black, its left child is red and its right child is black
+                sibling->color = false;
+                sibling->left->color = true;
+                rightRotate(sibling);
+                sibling = node->parent->right;
+            }
+            // case 4 - sibling is black and its right child is red
+            sibling->color = node->parent->color;
+            node->parent->color = true;
+            sibling->right->color = true;
+            leftRotate(node->parent);
+            break;
+        }
+        else {
+            auto sibling = node->parent->left;
+            if (!sibling->color) {  // case 1 - sibling color is red
+                sibling->color = true;
+                node->parent->color = false;
+                rightRotate(node->parent);
+                sibling = node->parent->left;
+            }
+            if (sibling->left->color && sibling->right->color) {  // case 2 - sibling is black and both its children are black
+                sibling->color = false;
+                node = node->parent;
+            }
+            else {
+                if (sibling->left->color) {  // case 3 - sibling is black, its right child is red and its left child is black
+                    sibling->color = false;
+                    sibling->left->color = true;
+                    leftRotate(sibling);
+                    sibling = node->parent->left;
+                }
+                // case 4 - sibling is black and its left child is red
+                sibling->color = node->parent->color;
+                node->parent->color = true;
+                sibling->left->color = true;
+                rightRotate(node->parent);
+                break;
+            }
+        }
+    }
+    node->color = true;
 }
 
 

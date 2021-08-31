@@ -6,8 +6,18 @@
 #define CORMENBOOK_REDBLACKTREE_H
 
 #include <iostream>
+#include <exception>
+#include <string>
 
 #include "Node.h"
+
+class RedBlackTreeException : public std::exception {
+private:
+    std::string error_message;
+public:
+    RedBlackTreeException(const std::string& error_message);
+    const std::string& message() const;
+};
 
 template <class K, class D>
 class RedBlackTree {
@@ -19,8 +29,14 @@ private:
 public:
     RedBlackTree();
     ~RedBlackTree();
+
     void inorderTraversal(std::ostream& os) const;
     void insert(const K& key, const D& data);
+    void remove(const K& key);
+
+    Node<K, D>* search(const K& key) const;
+    std::pair<K, D> minimum() const;
+    std::pair<K, D> maximum() const;
 
     int size() const;
     Node<K, D>* root() const;
@@ -31,6 +47,10 @@ private:
 
     void leftRotate(Node<K, D> *subtree_root);
     void rightRotate(Node<K, D> *subtree_root);
+    void transplant(Node<K, D> *initial_node, Node<K, D> *new_node);
+
+    Node<K, D>* subtree_minimum(Node<K, D> *root) const;
+    Node<K, D>* subtree_maximum(Node<K, D> *root) const;
 
     void insertFixup(Node<K, D> *node);
 };
@@ -206,6 +226,73 @@ void RedBlackTree<K, D>::deleteRecursively(Node<K, D> *subtree_root) {
         deleteRecursively(subtree_root->right);
         delete subtree_root;
     }
+}
+
+template<class K, class D>
+void RedBlackTree<K, D>::transplant(Node<K, D> *initial_node, Node<K, D> *new_node) {
+    if (tree_root == initial_node)
+        tree_root = new_node;
+    else if (initial_node == initial_node->parent->right)
+        initial_node->parent->right = new_node;
+    else
+        initial_node->parent->left = new_node;
+
+    new_node->parent = initial_node->parent;
+    delete initial_node;
+}
+
+template<class K, class D>
+void RedBlackTree<K, D>::remove(const K &key) {
+    auto node = search(key);
+    if (node == nil)
+        throw RedBlackTreeException("The key to be removed was not found.");
+
+
+
+}
+
+template<class K, class D>
+Node<K, D> *RedBlackTree<K, D>::search(const K& key) const {
+    auto current = tree_root;
+    while (current != nil && current->key != key) {
+        if (key < current->key)
+            current = current->left;
+        else
+            current = current->right;
+    }
+    return current;
+}
+
+template<class K, class D>
+std::pair<K, D> RedBlackTree<K, D>::minimum() const {
+    auto minimum = subtree_minimum(tree_root);
+    return std::make_pair(minimum->key, minimum->data);
+}
+
+template<class K, class D>
+std::pair<K, D> RedBlackTree<K, D>::maximum() const {
+    auto maximum = subtree_maximum(tree_root);
+    return std::make_pair(maximum->key, maximum->data);
+}
+
+template<class K, class D>
+Node<K, D>* RedBlackTree<K, D>::subtree_minimum(Node<K, D> *root) const {
+    auto previous = root;
+    while (root != nil) {
+        previous = root;
+        root = root->left;
+    }
+    return previous;
+}
+
+template<class K, class D>
+Node<K, D>* RedBlackTree<K, D>::subtree_maximum(Node<K, D> *root) const {
+    auto previous = root;
+    while (root != nil) {
+        previous = root;
+        root = root->right;
+    }
+    return previous;
 }
 
 

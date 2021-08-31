@@ -15,6 +15,8 @@ void testRedBlackTree() {
 
     t1.insert(6, "a");
     assert(t1.size() == 1);
+    assert(t1.maximum().first == 6 && t1.maximum().second == "a");
+    assert(t1.minimum().first == 6 && t1.minimum().second == "a");
 
     t1.insert(4, "b");
     t1.insert(7, "c");
@@ -30,6 +32,8 @@ void testRedBlackTree() {
 
     t1.insert(3, "f");
     assert(t1.size() == 6);
+    assert(t1.minimum().first == 3 && t1.minimum().second == "f");
+    assert(t1.maximum().first == 10 && t1.maximum().second == "e");
 
     std::stringstream stream;
     t1.inorderTraversal(stream);

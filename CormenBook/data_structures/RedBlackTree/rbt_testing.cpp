@@ -71,6 +71,14 @@ void testRedBlackTree() {
     t1.inorderTraversal(stream);
     assert(stream.str() == "4 6 7 ");
 
+    try {
+        t1.remove(10);
+        assert(false);
+    }
+    catch (const RedBlackTreeException& exception) {
+        assert(exception.message() == "The key to be removed was not found.");
+    }
+
     t1.remove(6);
     assert(t1.size() == 2);
 

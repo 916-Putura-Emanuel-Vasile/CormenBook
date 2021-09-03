@@ -8,18 +8,17 @@
 #include <iostream>
 #include <sstream>
 #include <cassert>
-#include <string>
 
 void testRedBlackTree() {
-    RedBlackTree<int, std::string> t1;
+    RedBlackTree<int> t1;
 
-    t1.insert(6, "a");
+    t1.insert(6);
     assert(t1.size() == 1);
-    assert(t1.maximum().first == 6 && t1.maximum().second == "a");
-    assert(t1.minimum().first == 6 && t1.minimum().second == "a");
+    assert(t1.maximum() == 6);
+    assert(t1.minimum() == 6);
 
-    t1.insert(4, "b");
-    t1.insert(7, "c");
+    t1.insert(4);
+    t1.insert(7);
 
     auto root = t1.root();
     assert(root->key == 6);
@@ -27,16 +26,16 @@ void testRedBlackTree() {
     assert(root->right->key == 7);
 
     assert(!root->left->color && !root->right->color);
-    t1.insert(7, "d");
+    t1.insert(7);
     assert(root->left->color && root->right->color);  // red uncle case
 
-    t1.insert(10, "e");  // black uncle, right-right case
+    t1.insert(10);  // black uncle, right-right case
     assert(t1.size() == 5);
 
-    t1.insert(3, "f");
+    t1.insert(3);
     assert(t1.size() == 6);
-    assert(t1.minimum().first == 3 && t1.minimum().second == "f");
-    assert(t1.maximum().first == 10 && t1.maximum().second == "e");
+    assert(t1.minimum() == 3);
+    assert(t1.maximum() == 10);
 
     root = t1.root();
     assert(root->key == 6 && root->color);

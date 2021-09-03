@@ -6,10 +6,9 @@
 #define CORMENBOOK_NODE_H
 
 
-template <class K, class D>
+template <class K>
 struct Node {
     K key;                        // key of the node
-    D data;                       // information carried with the key
 
     Node *parent, *left, *right;  // links in the tree
     bool color;                   // true if black, false else

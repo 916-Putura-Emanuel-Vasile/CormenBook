@@ -19,11 +19,14 @@ public:
     const std::string& message() const;
 };
 
-template <class K>
+/*
+ * Class Node from RedBlackTree class template must provide public access to at least the following fields: key, left, right, parent, color
+ */
+template <class K, class Node>
 class RedBlackTree {
 private:
-    Node<K> *tree_root;
-    Node<K> *nil;
+    Node *tree_root;
+    Node *nil;
 
     int nodes_number;
 public:
@@ -34,41 +37,41 @@ public:
     void insert(const K& key);
     void remove(const K& key);
 
-    Node<K>* search(const K& key) const;
+    Node* search(const K& key) const;
     const K& minimum() const;
     const K& maximum() const;
 
     int size() const;
-    Node<K>* root() const;
+    Node* root() const;
 private:
-    void initNode(Node<K>* &node, const K& key) const;
-    void recursiveInorderTraversal(Node<K> *subtree_root, std::ostream& os) const;
-    void deleteRecursively(Node<K> *subtree_root);
+    void initNode(Node* &node, const K& key) const;
+    void recursiveInorderTraversal(Node *subtree_root, std::ostream& os) const;
+    void deleteRecursively(Node *subtree_root);
 
-    void leftRotate(Node<K> *subtree_root);
-    void rightRotate(Node<K> *subtree_root);
-    void transplant(Node<K> *initial_node, Node<K> *new_node);
+    void leftRotate(Node *subtree_root);
+    void rightRotate(Node *subtree_root);
+    void transplant(Node *initial_node, Node *new_node);
 
-    Node<K>* subtree_minimum(Node<K> *root) const;
-    Node<K>* subtree_maximum(Node<K> *root) const;
+    Node* subtree_minimum(Node *root) const;
+    Node* subtree_maximum(Node *root) const;
 
-    void insertFixup(Node<K> *node);
-    void deleteFixup(Node<K> *node);
+    void insertFixup(Node *node);
+    void deleteFixup(Node *node);
 };
 
 /*
  *  ============================ Implementation ============================
  */
 
-template<class K>
-RedBlackTree<K>::RedBlackTree() : nil {new Node<K>}, nodes_number {0} {
+template <class K, class Node>
+RedBlackTree<K, Node>::RedBlackTree() : nil {new Node}, nodes_number {0} {
     nil->color = true;
     tree_root = nil;
 }
 
-template<class K>
-void RedBlackTree<K>::initNode(Node<K>* &node, const K& key) const {
-    node = new Node<K>;
+template <class K, class Node>
+void RedBlackTree<K, Node>::initNode(Node* &node, const K& key) const {
+    node = new Node;
     node->key = key;
     node->parent = nil;
     node->right = nil;
@@ -76,8 +79,8 @@ void RedBlackTree<K>::initNode(Node<K>* &node, const K& key) const {
     node->color = true;
 }
 
-template<class K>
-void RedBlackTree<K>::leftRotate(Node<K> *subtree_root) {
+template <class K, class Node>
+void RedBlackTree<K, Node>::leftRotate(Node *subtree_root) {
     auto new_root = subtree_root->right;
     if (new_root == nil)
         return;
@@ -97,8 +100,8 @@ void RedBlackTree<K>::leftRotate(Node<K> *subtree_root) {
     new_root->left = subtree_root;
 }
 
-template<class K>
-void RedBlackTree<K>::rightRotate(Node<K> *subtree_root) {
+template <class K, class Node>
+void RedBlackTree<K, Node>::rightRotate(Node *subtree_root) {
     auto new_root = subtree_root->left;
     if (new_root == nil)
         return;
@@ -118,13 +121,13 @@ void RedBlackTree<K>::rightRotate(Node<K> *subtree_root) {
     new_root->right = subtree_root;
 }
 
-template<class K>
-void RedBlackTree<K>::inorderTraversal(std::ostream &os) const {
+template<class K, class Node>
+void RedBlackTree<K, Node>::inorderTraversal(std::ostream &os) const {
     recursiveInorderTraversal(tree_root, os);
 }
 
-template<class K>
-void RedBlackTree<K>::recursiveInorderTraversal(Node<K> *subtree_root, std::ostream& os) const {
+template <class K, class Node>
+void RedBlackTree<K, Node>::recursiveInorderTraversal(Node *subtree_root, std::ostream& os) const {
     if (subtree_root != nil) {
         recursiveInorderTraversal(subtree_root->left, os);
         os << subtree_root->key << ' ';
@@ -132,8 +135,8 @@ void RedBlackTree<K>::recursiveInorderTraversal(Node<K> *subtree_root, std::ostr
     }
 }
 
-template<class K>
-void RedBlackTree<K>::insert(const K &key) {
+template <class K, class Node>
+void RedBlackTree<K, Node>::insert(const K &key) {
     auto previous_node = nil, current = tree_root;
     while (current != nil) {
         previous_node = current;
@@ -158,8 +161,8 @@ void RedBlackTree<K>::insert(const K &key) {
     nodes_number++;
 }
 
-template<class K>
-void RedBlackTree<K>::insertFixup(Node<K> *node) {
+template <class K, class Node>
+void RedBlackTree<K, Node>::insertFixup(Node *node) {
     while (!node->parent->color) {  // while the color of the node's parent is red
         if (node->parent == node->parent->parent->left) {
             auto uncle_node = node->parent->parent->right;
@@ -203,24 +206,24 @@ void RedBlackTree<K>::insertFixup(Node<K> *node) {
     tree_root->color = true;
 }
 
-template<class K>
-int RedBlackTree<K>::size() const {
+template <class K, class Node>
+int RedBlackTree<K, Node>::size() const {
     return nodes_number;
 }
 
-template<class K>
-Node<K>* RedBlackTree<K>::root() const{
+template <class K, class Node>
+Node* RedBlackTree<K, Node>::root() const{
     return tree_root;
 }
 
-template<class K>
-RedBlackTree<K>::~RedBlackTree() {
+template <class K, class Node>
+RedBlackTree<K, Node>::~RedBlackTree() {
     deleteRecursively(tree_root);
     delete nil;
 }
 
-template<class K>
-void RedBlackTree<K>::deleteRecursively(Node<K> *subtree_root) {
+template <class K, class Node>
+void RedBlackTree<K, Node>::deleteRecursively(Node *subtree_root) {
     if (subtree_root != nil) {
         deleteRecursively(subtree_root->left);
         deleteRecursively(subtree_root->right);
@@ -228,8 +231,8 @@ void RedBlackTree<K>::deleteRecursively(Node<K> *subtree_root) {
     }
 }
 
-template<class K>
-void RedBlackTree<K>::transplant(Node<K> *initial_node, Node<K> *new_node) {
+template <class K, class Node>
+void RedBlackTree<K, Node>::transplant(Node *initial_node, Node *new_node) {
     if (tree_root == initial_node)
         tree_root = new_node;
     else if (initial_node == initial_node->parent->right)
@@ -240,8 +243,8 @@ void RedBlackTree<K>::transplant(Node<K> *initial_node, Node<K> *new_node) {
     new_node->parent = initial_node->parent;
 }
 
-template<class K>
-void RedBlackTree<K>::remove(const K &key) {
+template <class K, class Node>
+void RedBlackTree<K, Node>::remove(const K &key) {
     auto node = search(key);
     if (node == nil)
         throw RedBlackTreeException("The key to be removed was not found.");
@@ -279,8 +282,8 @@ void RedBlackTree<K>::remove(const K &key) {
     delete node;
 }
 
-template<class K>
-Node<K> *RedBlackTree<K>::search(const K& key) const {
+template <class K, class Node>
+Node *RedBlackTree<K, Node>::search(const K& key) const {
     auto current = tree_root;
     while (current != nil && current->key != key) {
         if (key < current->key)
@@ -291,20 +294,20 @@ Node<K> *RedBlackTree<K>::search(const K& key) const {
     return current;
 }
 
-template<class K>
-const K& RedBlackTree<K>::minimum() const {
+template <class K, class Node>
+const K& RedBlackTree<K, Node>::minimum() const {
     auto minimum = subtree_minimum(tree_root);
     return minimum->key;
 }
 
-template<class K>
-const K& RedBlackTree<K>::maximum() const {
+template <class K, class Node>
+const K& RedBlackTree<K, Node>::maximum() const {
     auto maximum = subtree_maximum(tree_root);
     return maximum->key;
 }
 
-template<class K>
-Node<K>* RedBlackTree<K>::subtree_minimum(Node<K> *root) const {
+template <class K, class Node>
+Node* RedBlackTree<K, Node>::subtree_minimum(Node *root) const {
     auto previous = root;
     while (root != nil) {
         previous = root;
@@ -313,8 +316,8 @@ Node<K>* RedBlackTree<K>::subtree_minimum(Node<K> *root) const {
     return previous;
 }
 
-template<class K>
-Node<K>* RedBlackTree<K>::subtree_maximum(Node<K> *root) const {
+template <class K, class Node>
+Node* RedBlackTree<K, Node>::subtree_maximum(Node *root) const {
     auto previous = root;
     while (root != nil) {
         previous = root;
@@ -323,8 +326,8 @@ Node<K>* RedBlackTree<K>::subtree_maximum(Node<K> *root) const {
     return previous;
 }
 
-template<class K>
-void RedBlackTree<K>::deleteFixup(Node<K> *node) {
+template <class K, class Node>
+void RedBlackTree<K, Node>::deleteFixup(Node *node) {
     while (node != tree_root && node->color) {
         if (node == node->parent->left) {
             auto sibling = node->parent->right;

@@ -10,7 +10,7 @@
 #include <cassert>
 
 void testRedBlackTree() {
-    RedBlackTree<int> t1;
+    RedBlackTree<int, Node<int>> t1;
 
     t1.insert(6);
     assert(t1.size() == 1);
@@ -21,13 +21,13 @@ void testRedBlackTree() {
     t1.insert(7);
 
     auto root = t1.root();
-    assert(root->key == 6);
-    assert(root->left->key == 4);
-    assert(root->right->key == 7);
+    assert(root->getKey() == 6);
+    assert(root->getLeftChild()->getKey() == 4);
+    assert(root->getRightChild()->getKey() == 7);
 
-    assert(!root->left->color && !root->right->color);
+    assert(!root->getLeftChild()->getColor() && !root->getRightChild()->getColor());
     t1.insert(7);
-    assert(root->left->color && root->right->color);  // red uncle case
+    assert(root->getLeftChild()->getColor() && root->getRightChild()->getColor());  // red uncle case
 
     t1.insert(10);  // black uncle, right-right case
     assert(t1.size() == 5);
@@ -38,12 +38,12 @@ void testRedBlackTree() {
     assert(t1.maximum() == 10);
 
     root = t1.root();
-    assert(root->key == 6 && root->color);
-    assert(root->left->key == 4 && root->left->color);
-    assert(root->left->left->key == 3 && !root->left->left->color);
-    assert(root->right->key == 7 && root->right->color);
-    assert(root->right->left->key == 7 && !root->right->left->color);
-    assert(root->right->right->key == 10 && !root->right->right->color);
+    assert(root->getKey() == 6 && root->getColor());
+    assert(root->getLeftChild()->getKey() == 4 && root->getLeftChild()->getColor());
+    assert(root->getLeftChild()->getLeftChild()->getKey() == 3 && !root->getLeftChild()->getLeftChild()->getColor());
+    assert(root->getRightChild()->getKey() == 7 && root->getRightChild()->getColor());
+    assert(root->getRightChild()->getLeftChild()->getKey() == 7 && !root->getRightChild()->getLeftChild()->getColor());
+    assert(root->getRightChild()->getRightChild()->getKey() == 10 && !root->getRightChild()->getRightChild()->getColor());
 
     std::stringstream stream;
     t1.inorderTraversal(stream);
@@ -91,7 +91,7 @@ void testRedBlackTree() {
     stream.str("");
     t1.inorderTraversal(stream);
     assert(stream.str() == "7 ");
-    assert(t1.root()->key == 7);
+    assert(t1.root()->getKey() == 7);
 
     t1.remove(7);
     assert(t1.size() == 0);

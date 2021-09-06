@@ -3,6 +3,7 @@
 //
 
 #include "IntervalTree.h"
+#include "Interval.h"
 
 void IntervalTree::insert(const Interval &interval) {
     auto previous_node = nil, current = tree_root;
@@ -123,17 +124,19 @@ int IntervalTree::getMaximumFromSubtree(IntervalTreeNode *subtree_root) const {
     return maximum;
 }
 
-void IntervalTree::changeTree(IntervalTreeNode *new_root) {
-    deleteRecursively(tree_root);
-    tree_root = new_root;
-}
-
-IntervalTreeNode *IntervalTree::getNil() const {
-    return nil;
-}
-
 void IntervalTree::initNode(IntervalTreeNode *&node, const Interval &interval) const {
     RedBlackTree::initNode(node, interval);
     node->high_maximum = node->key.high;
 
+}
+
+IntervalTreeNode *IntervalTree::intervalSearch(const Interval &interval) const {
+    auto current = tree_root;
+    while (current != nil && !intervalsOverlap(current->key, interval)) {
+        if (current->left != nil && current->left->high_maximum >= interval.low)
+            current = current->left;
+        else
+            current = current->right;
+    }
+    return current == nil ? nullptr : current;
 }

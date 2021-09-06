@@ -20,9 +20,11 @@ public:
     IntervalTreeNode();
     inline int getHighMaximum() const { return high_maximum; }
 private:
-    friend class IntervalTree;
     template <class Key, class Node> friend class RedBlackTree;
+    friend class IntervalTree;
+
     void friend maxPropertyTesting();
+    void friend testIntervalSearch();
 };
 
 

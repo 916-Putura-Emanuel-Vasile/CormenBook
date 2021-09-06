@@ -18,6 +18,7 @@ public:
     friend bool operator!= (const Interval& i1, const Interval& i2);
     friend bool operator< (const Interval& i1, const Interval& i2);
     friend std::ostream& operator<< (std::ostream& os, const Interval& i);
+    friend bool intervalsOverlap(const Interval& i1, const Interval& i2);
 
     inline int getLow() const { return low; }
     inline int getHigh() const { return high; }

@@ -23,3 +23,7 @@ bool operator==(const Interval &i1, const Interval &i2) {
 bool operator!=(const Interval &i1, const Interval &i2) {
     return i1.low != i2.low || i1.high != i2.high;
 }
+
+bool intervalsOverlap(const Interval &i1, const Interval &i2) {
+    return i1.low <= i2.high && i1.high >= i2.low;
+}

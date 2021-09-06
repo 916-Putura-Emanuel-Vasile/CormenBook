@@ -9,9 +9,6 @@
 #include <sstream>
 #include <cassert>
 
-void testAfterInsertionsTest(const IntervalTree &tree, IntervalTreeNode *root, IntervalTreeNode *root_left,
-                             IntervalTreeNode *root_right);
-
 void basicTesting() {
     IntervalTree it;
     it.insert(Interval(2, 3));
@@ -228,9 +225,39 @@ void maxPropertyTesting() {
     assert(!root_right->left->left->color);
 }
 
+void testIntervalSearch() {
+    IntervalTree tree;
+
+    tree.insert(Interval(16, 21));
+    tree.insert(Interval(25, 30));
+    tree.insert(Interval(8, 9));
+    tree.insert(Interval(15, 23));
+    tree.insert(Interval(5, 8));
+    tree.insert(Interval(17, 19));
+    tree.insert(Interval(26, 26));
+    tree.insert(Interval(0, 3));
+    tree.insert(Interval(6, 10));
+    tree.insert(Interval(19, 20));
+    tree.insert(Interval(19, 21));
+
+    assert(tree.intervalSearch(Interval(5, 5))->key == Interval(5, 8));
+    assert(tree.intervalSearch(Interval(4, 5))->key == Interval(5, 8));
+    assert(tree.intervalSearch(Interval(3, 4))->key == Interval(0, 3));
+    assert(tree.intervalSearch(Interval(23, 24))->key == Interval(15, 23));
+    assert(tree.intervalSearch(Interval(21, 24))->key == Interval(16, 21));
+    assert(tree.intervalSearch(Interval(22, 24))->key == Interval(15, 23));
+    assert(tree.intervalSearch(Interval(26, 99))->key == Interval(25, 30));
+    assert(tree.intervalSearch(Interval(26, 26))->key == Interval(25, 30));
+
+    assert(tree.intervalSearch(Interval(24, 24)) == nullptr);
+    assert(tree.intervalSearch(Interval(4, 4)) == nullptr);
+    assert(tree.intervalSearch(Interval(31, 104)) == nullptr);
+}
+
 void testIntervalTree() {
     basicTesting();
     maxPropertyTesting();
+    testIntervalSearch();
 
     std::cout << "...testing interval tree data structure\n";
 }

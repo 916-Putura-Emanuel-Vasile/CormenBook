@@ -7,6 +7,7 @@
 
 void basicTesting();
 void maxPropertyTesting();
+void testIntervalSearch();
 void testIntervalTree();
 
 #endif //CORMENBOOK_IT_TESTING_H

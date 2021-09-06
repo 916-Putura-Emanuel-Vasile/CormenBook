@@ -13,9 +13,7 @@ class IntervalTree : public RedBlackTree<Interval, IntervalTreeNode>{
 public:
     void insert(const Interval& interval) override;
     void remove(const Interval& interval) override;
-
-    void changeTree(IntervalTreeNode *new_root);
-    IntervalTreeNode *getNil() const;
+    IntervalTreeNode *intervalSearch(const Interval& interval) const;
 private:
     void leftRotate(IntervalTreeNode *subtree_root) override;
     void rightRotate(IntervalTreeNode *subtree_root) override;

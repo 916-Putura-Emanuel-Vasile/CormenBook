@@ -17,6 +17,29 @@ CMakeFiles/CormenBook.dir/data_structures/Heap/testing.cpp.o
  /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/max_heap.h
  /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/testing.cpp
  /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/testing.h
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.o
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/Interval.cpp
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/Interval.h
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.o
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/Interval.h
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTree.cpp
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTree.h
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTreeNode.h
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/Node.h
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/RedBlackTree.h
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.o
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/Interval.h
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTreeNode.cpp
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTreeNode.h
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/Node.h
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.o
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/Interval.h
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTree.h
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTreeNode.h
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/it_testing.cpp
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/it_testing.h
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/Node.h
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/RedBlackTree.h
 CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/RedBlackTree.cpp.o
  /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/Node.h
  /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/RedBlackTree.cpp
@@ -31,6 +54,7 @@ CMakeFiles/CormenBook.dir/exercises/exercise2-4-d.cpp.o
  /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/exercises/exercise2-4-d.h
 CMakeFiles/CormenBook.dir/main.cpp.o
  /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/testing.h
+ /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/it_testing.h
  /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/rbt_testing.h
  /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/exercises/exercise2-4-d.h
  /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/main.cpp

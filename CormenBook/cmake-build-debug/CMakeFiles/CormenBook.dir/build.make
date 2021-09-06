@@ -278,6 +278,58 @@ CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/rbt_testing.cpp.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/rbt_testing.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/rbt_testing.cpp -o CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/rbt_testing.cpp.s
 
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.o: CMakeFiles/CormenBook.dir/flags.make
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.o: ../data_structures/IntervalTree/IntervalTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.o -c /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTree.cpp
+
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTree.cpp > CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.i
+
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTree.cpp -o CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.s
+
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.o: CMakeFiles/CormenBook.dir/flags.make
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.o: ../data_structures/IntervalTree/Interval.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.o -c /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/Interval.cpp
+
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/Interval.cpp > CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.i
+
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/Interval.cpp -o CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.s
+
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.o: CMakeFiles/CormenBook.dir/flags.make
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.o: ../data_structures/IntervalTree/it_testing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.o -c /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/it_testing.cpp
+
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/it_testing.cpp > CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.i
+
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/it_testing.cpp -o CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.s
+
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.o: CMakeFiles/CormenBook.dir/flags.make
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.o: ../data_structures/IntervalTree/IntervalTreeNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.o -c /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTreeNode.cpp
+
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTreeNode.cpp > CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.i
+
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTreeNode.cpp -o CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.s
+
 # Object files for target CormenBook
 CormenBook_OBJECTS = \
 "CMakeFiles/CormenBook.dir/main.cpp.o" \
@@ -296,7 +348,11 @@ CormenBook_OBJECTS = \
 "CMakeFiles/CormenBook.dir/sorting_algorithms/radix_sort.cpp.o" \
 "CMakeFiles/CormenBook.dir/other_algorithms/selection_of_ith_smaller_element.cpp.o" \
 "CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/RedBlackTree.cpp.o" \
-"CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/rbt_testing.cpp.o"
+"CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/rbt_testing.cpp.o" \
+"CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.o" \
+"CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.o" \
+"CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.o" \
+"CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.o"
 
 # External object files for target CormenBook
 CormenBook_EXTERNAL_OBJECTS =
@@ -318,9 +374,13 @@ CormenBook: CMakeFiles/CormenBook.dir/sorting_algorithms/radix_sort.cpp.o
 CormenBook: CMakeFiles/CormenBook.dir/other_algorithms/selection_of_ith_smaller_element.cpp.o
 CormenBook: CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/RedBlackTree.cpp.o
 CormenBook: CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/rbt_testing.cpp.o
+CormenBook: CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.o
+CormenBook: CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.o
+CormenBook: CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.o
+CormenBook: CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.o
 CormenBook: CMakeFiles/CormenBook.dir/build.make
 CormenBook: CMakeFiles/CormenBook.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable CormenBook"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable CormenBook"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CormenBook.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

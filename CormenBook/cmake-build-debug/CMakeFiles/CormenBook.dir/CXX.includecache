@@ -6,11 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/Node.h
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/Interval.h
+iostream
+-
 
-/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/RedBlackTree.cpp
-RedBlackTree.h
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTree.h
+Interval.h
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/Interval.h
+IntervalTreeNode.h
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTreeNode.h
+../RedBlackTree/RedBlackTree.h
 /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/RedBlackTree.h
+
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTreeNode.h
+../RedBlackTree/Node.h
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/Node.h
+Interval.h
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/Interval.h
+
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/it_testing.cpp
+it_testing.h
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/it_testing.h
+IntervalTree.h
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTree.h
+iostream
+-
+sstream
+-
+cassert
+-
+
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/it_testing.h
+
+/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/Node.h
 
 /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/RedBlackTree.h
 iostream
@@ -21,18 +49,4 @@ string
 -
 Node.h
 /mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/Node.h
-
-/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/rbt_testing.cpp
-rbt_testing.h
-/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/rbt_testing.h
-RedBlackTree.h
-/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/RedBlackTree.h
-iostream
--
-sstream
--
-cassert
--
-
-/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/rbt_testing.h
 

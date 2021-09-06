@@ -17,6 +17,29 @@ CMakeFiles/CormenBook.dir/data_structures/Heap/testing.cpp.o: ../data_structures
 CMakeFiles/CormenBook.dir/data_structures/Heap/testing.cpp.o: ../data_structures/Heap/testing.cpp
 CMakeFiles/CormenBook.dir/data_structures/Heap/testing.cpp.o: ../data_structures/Heap/testing.h
 
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.o: ../data_structures/IntervalTree/Interval.cpp
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.o: ../data_structures/IntervalTree/Interval.h
+
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.o: ../data_structures/IntervalTree/Interval.h
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.o: ../data_structures/IntervalTree/IntervalTree.cpp
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.o: ../data_structures/IntervalTree/IntervalTree.h
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.o: ../data_structures/IntervalTree/IntervalTreeNode.h
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.o: ../data_structures/RedBlackTree/Node.h
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.o: ../data_structures/RedBlackTree/RedBlackTree.h
+
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.o: ../data_structures/IntervalTree/Interval.h
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.o: ../data_structures/IntervalTree/IntervalTreeNode.cpp
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.o: ../data_structures/IntervalTree/IntervalTreeNode.h
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.o: ../data_structures/RedBlackTree/Node.h
+
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.o: ../data_structures/IntervalTree/Interval.h
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.o: ../data_structures/IntervalTree/IntervalTree.h
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.o: ../data_structures/IntervalTree/IntervalTreeNode.h
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.o: ../data_structures/IntervalTree/it_testing.cpp
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.o: ../data_structures/IntervalTree/it_testing.h
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.o: ../data_structures/RedBlackTree/Node.h
+CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.o: ../data_structures/RedBlackTree/RedBlackTree.h
+
 CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/RedBlackTree.cpp.o: ../data_structures/RedBlackTree/Node.h
 CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/RedBlackTree.cpp.o: ../data_structures/RedBlackTree/RedBlackTree.cpp
 CMakeFiles/CormenBook.dir/data_structures/RedBlackTree/RedBlackTree.cpp.o: ../data_structures/RedBlackTree/RedBlackTree.h
@@ -30,6 +53,7 @@ CMakeFiles/CormenBook.dir/exercises/exercise2-4-d.cpp.o: ../exercises/exercise2-
 CMakeFiles/CormenBook.dir/exercises/exercise2-4-d.cpp.o: ../exercises/exercise2-4-d.h
 
 CMakeFiles/CormenBook.dir/main.cpp.o: ../data_structures/Heap/testing.h
+CMakeFiles/CormenBook.dir/main.cpp.o: ../data_structures/IntervalTree/it_testing.h
 CMakeFiles/CormenBook.dir/main.cpp.o: ../data_structures/RedBlackTree/rbt_testing.h
 CMakeFiles/CormenBook.dir/main.cpp.o: ../exercises/exercise2-4-d.h
 CMakeFiles/CormenBook.dir/main.cpp.o: ../main.cpp

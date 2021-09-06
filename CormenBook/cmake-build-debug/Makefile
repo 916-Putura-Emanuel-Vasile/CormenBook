@@ -231,6 +231,114 @@ data_structures/Heap/testing.cpp.s:
 	$(MAKE) -f CMakeFiles/CormenBook.dir/build.make CMakeFiles/CormenBook.dir/data_structures/Heap/testing.cpp.s
 .PHONY : data_structures/Heap/testing.cpp.s
 
+data_structures/IntervalTree/Interval.o: data_structures/IntervalTree/Interval.cpp.o
+
+.PHONY : data_structures/IntervalTree/Interval.o
+
+# target to build an object file
+data_structures/IntervalTree/Interval.cpp.o:
+	$(MAKE) -f CMakeFiles/CormenBook.dir/build.make CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.o
+.PHONY : data_structures/IntervalTree/Interval.cpp.o
+
+data_structures/IntervalTree/Interval.i: data_structures/IntervalTree/Interval.cpp.i
+
+.PHONY : data_structures/IntervalTree/Interval.i
+
+# target to preprocess a source file
+data_structures/IntervalTree/Interval.cpp.i:
+	$(MAKE) -f CMakeFiles/CormenBook.dir/build.make CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.i
+.PHONY : data_structures/IntervalTree/Interval.cpp.i
+
+data_structures/IntervalTree/Interval.s: data_structures/IntervalTree/Interval.cpp.s
+
+.PHONY : data_structures/IntervalTree/Interval.s
+
+# target to generate assembly for a file
+data_structures/IntervalTree/Interval.cpp.s:
+	$(MAKE) -f CMakeFiles/CormenBook.dir/build.make CMakeFiles/CormenBook.dir/data_structures/IntervalTree/Interval.cpp.s
+.PHONY : data_structures/IntervalTree/Interval.cpp.s
+
+data_structures/IntervalTree/IntervalTree.o: data_structures/IntervalTree/IntervalTree.cpp.o
+
+.PHONY : data_structures/IntervalTree/IntervalTree.o
+
+# target to build an object file
+data_structures/IntervalTree/IntervalTree.cpp.o:
+	$(MAKE) -f CMakeFiles/CormenBook.dir/build.make CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.o
+.PHONY : data_structures/IntervalTree/IntervalTree.cpp.o
+
+data_structures/IntervalTree/IntervalTree.i: data_structures/IntervalTree/IntervalTree.cpp.i
+
+.PHONY : data_structures/IntervalTree/IntervalTree.i
+
+# target to preprocess a source file
+data_structures/IntervalTree/IntervalTree.cpp.i:
+	$(MAKE) -f CMakeFiles/CormenBook.dir/build.make CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.i
+.PHONY : data_structures/IntervalTree/IntervalTree.cpp.i
+
+data_structures/IntervalTree/IntervalTree.s: data_structures/IntervalTree/IntervalTree.cpp.s
+
+.PHONY : data_structures/IntervalTree/IntervalTree.s
+
+# target to generate assembly for a file
+data_structures/IntervalTree/IntervalTree.cpp.s:
+	$(MAKE) -f CMakeFiles/CormenBook.dir/build.make CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTree.cpp.s
+.PHONY : data_structures/IntervalTree/IntervalTree.cpp.s
+
+data_structures/IntervalTree/IntervalTreeNode.o: data_structures/IntervalTree/IntervalTreeNode.cpp.o
+
+.PHONY : data_structures/IntervalTree/IntervalTreeNode.o
+
+# target to build an object file
+data_structures/IntervalTree/IntervalTreeNode.cpp.o:
+	$(MAKE) -f CMakeFiles/CormenBook.dir/build.make CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.o
+.PHONY : data_structures/IntervalTree/IntervalTreeNode.cpp.o
+
+data_structures/IntervalTree/IntervalTreeNode.i: data_structures/IntervalTree/IntervalTreeNode.cpp.i
+
+.PHONY : data_structures/IntervalTree/IntervalTreeNode.i
+
+# target to preprocess a source file
+data_structures/IntervalTree/IntervalTreeNode.cpp.i:
+	$(MAKE) -f CMakeFiles/CormenBook.dir/build.make CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.i
+.PHONY : data_structures/IntervalTree/IntervalTreeNode.cpp.i
+
+data_structures/IntervalTree/IntervalTreeNode.s: data_structures/IntervalTree/IntervalTreeNode.cpp.s
+
+.PHONY : data_structures/IntervalTree/IntervalTreeNode.s
+
+# target to generate assembly for a file
+data_structures/IntervalTree/IntervalTreeNode.cpp.s:
+	$(MAKE) -f CMakeFiles/CormenBook.dir/build.make CMakeFiles/CormenBook.dir/data_structures/IntervalTree/IntervalTreeNode.cpp.s
+.PHONY : data_structures/IntervalTree/IntervalTreeNode.cpp.s
+
+data_structures/IntervalTree/it_testing.o: data_structures/IntervalTree/it_testing.cpp.o
+
+.PHONY : data_structures/IntervalTree/it_testing.o
+
+# target to build an object file
+data_structures/IntervalTree/it_testing.cpp.o:
+	$(MAKE) -f CMakeFiles/CormenBook.dir/build.make CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.o
+.PHONY : data_structures/IntervalTree/it_testing.cpp.o
+
+data_structures/IntervalTree/it_testing.i: data_structures/IntervalTree/it_testing.cpp.i
+
+.PHONY : data_structures/IntervalTree/it_testing.i
+
+# target to preprocess a source file
+data_structures/IntervalTree/it_testing.cpp.i:
+	$(MAKE) -f CMakeFiles/CormenBook.dir/build.make CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.i
+.PHONY : data_structures/IntervalTree/it_testing.cpp.i
+
+data_structures/IntervalTree/it_testing.s: data_structures/IntervalTree/it_testing.cpp.s
+
+.PHONY : data_structures/IntervalTree/it_testing.s
+
+# target to generate assembly for a file
+data_structures/IntervalTree/it_testing.cpp.s:
+	$(MAKE) -f CMakeFiles/CormenBook.dir/build.make CMakeFiles/CormenBook.dir/data_structures/IntervalTree/it_testing.cpp.s
+.PHONY : data_structures/IntervalTree/it_testing.cpp.s
+
 data_structures/RedBlackTree/RedBlackTree.o: data_structures/RedBlackTree/RedBlackTree.cpp.o
 
 .PHONY : data_structures/RedBlackTree/RedBlackTree.o
@@ -603,6 +711,18 @@ help:
 	@echo "... data_structures/Heap/testing.o"
 	@echo "... data_structures/Heap/testing.i"
 	@echo "... data_structures/Heap/testing.s"
+	@echo "... data_structures/IntervalTree/Interval.o"
+	@echo "... data_structures/IntervalTree/Interval.i"
+	@echo "... data_structures/IntervalTree/Interval.s"
+	@echo "... data_structures/IntervalTree/IntervalTree.o"
+	@echo "... data_structures/IntervalTree/IntervalTree.i"
+	@echo "... data_structures/IntervalTree/IntervalTree.s"
+	@echo "... data_structures/IntervalTree/IntervalTreeNode.o"
+	@echo "... data_structures/IntervalTree/IntervalTreeNode.i"
+	@echo "... data_structures/IntervalTree/IntervalTreeNode.s"
+	@echo "... data_structures/IntervalTree/it_testing.o"
+	@echo "... data_structures/IntervalTree/it_testing.i"
+	@echo "... data_structures/IntervalTree/it_testing.s"
 	@echo "... data_structures/RedBlackTree/RedBlackTree.o"
 	@echo "... data_structures/RedBlackTree/RedBlackTree.i"
 	@echo "... data_structures/RedBlackTree/RedBlackTree.s"

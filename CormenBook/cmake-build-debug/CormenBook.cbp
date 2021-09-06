@@ -106,6 +106,30 @@
 		<Unit filename="/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/Heap/testing.h">
 			<Option target="CormenBook"/>
 		</Unit>
+		<Unit filename="/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/Interval.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/Interval.h">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTree.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTree.h">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTreeNode.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/IntervalTreeNode.h">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/it_testing.cpp">
+			<Option target="CormenBook"/>
+		</Unit>
+		<Unit filename="/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/IntervalTree/it_testing.h">
+			<Option target="CormenBook"/>
+		</Unit>
 		<Unit filename="/mnt/d/Informatica/Algorithms/Algorithms/CormenBookRepo/CormenBook/data_structures/RedBlackTree/Node.h">
 			<Option target="CormenBook"/>
 		</Unit>

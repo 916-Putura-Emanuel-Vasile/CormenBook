@@ -24,7 +24,7 @@ public:
  */
 template <class K, class Node>
 class RedBlackTree {
-private:
+protected:
     Node *tree_root;
     Node *nil;
 
@@ -34,8 +34,8 @@ public:
     ~RedBlackTree();
 
     void inorderTraversal(std::ostream& os) const;
-    void insert(const K& key);
-    void remove(const K& key);
+    virtual void insert(const K& key);
+    virtual void remove(const K& key);
 
     Node* search(const K& key) const;
     const K& minimum() const;
@@ -43,20 +43,20 @@ public:
 
     int size() const;
     Node* root() const;
-private:
-    void initNode(Node* &node, const K& key) const;
+protected:
+    virtual void initNode(Node* &node, const K& key) const;
     void recursiveInorderTraversal(Node *subtree_root, std::ostream& os) const;
     void deleteRecursively(Node *subtree_root);
 
-    void leftRotate(Node *subtree_root);
-    void rightRotate(Node *subtree_root);
+    virtual void leftRotate(Node *subtree_root);
+    virtual void rightRotate(Node *subtree_root);
     void transplant(Node *initial_node, Node *new_node);
 
     Node* subtree_minimum(Node *root) const;
     Node* subtree_maximum(Node *root) const;
 
-    void insertFixup(Node *node);
-    void deleteFixup(Node *node);
+    virtual void insertFixup(Node *node);
+    virtual void deleteFixup(Node *node);
 };
 
 /*

@@ -9,7 +9,7 @@
 #include "IntervalTreeNode.h"
 #include "../RedBlackTree/RedBlackTree.h"
 
-class IntervalTree : public RedBlackTree<Interval, IntervalTreeNode>{
+class IntervalTree : public RedBlackTree<Interval, IntervalTreeNode> {
 public:
     void insert(const Interval& interval) override;
     void remove(const Interval& interval) override;
